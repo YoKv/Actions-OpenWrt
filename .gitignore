@@ -1,0 +1,10 @@
+\.idea/
+*.iml
+*.csv
+node_modules/
+\target/
+\local/
+helper/
+\local/.project
+*.log
+\.settings/
