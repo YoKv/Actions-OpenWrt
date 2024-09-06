@@ -1,5 +1,11 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+## wifi按如下配置，速率有明显提升
+1. QCA
+    - 地区CN
+    - 带宽20/80  信道11/149  功率20
+    - 开启MIMO   加密WPA2PSK 算法CCMP
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)

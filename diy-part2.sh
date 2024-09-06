@@ -11,11 +11,17 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.11.1/192.168.11.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
 sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
-sed -i 's/16384/65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
+
+# 设置无线的国家代码为CN,wifi的默认功率为20
+sed -i 's/country=US/country=CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.txpower=20' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+# 设置默认开启MU-MIMO
+sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.mu_beamformer=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
