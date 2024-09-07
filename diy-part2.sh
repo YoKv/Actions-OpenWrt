@@ -42,7 +42,7 @@ sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/b
 
 rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
-sed -i "s/'/etc/AdGuardHome.yaml'/'/usr/share/AdGuardHome/AdGuardHome_template.yaml'/g" package/lean/luci-app-adguardhome/root/etc/config/AdGuardHome
+sed -i "s/#/etc/AdGuardHome.yaml#/#/usr/share/AdGuardHome/AdGuardHome_template.yaml#/g" package/lean/luci-app-adguardhome/root/etc/config/AdGuardHome
 rm -rf package/lean/luci-app-adguardhome/usr/share/AdGuardHome/AdGuardHome_template.yaml
 cat>package/lean/luci-app-adguardhome/usr/share/AdGuardHome/AdGuardHome_template.yaml<<EOF
 http:
