@@ -10,20 +10,37 @@
 # See /LICENSE for more information.
 #
 
+
+rm -rf package/lean/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+
+rm -rf feeds/luci/themes/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+
+#svn co https://github.com/linkease/istore/trunk/luci package/istore
+#svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
+#rm -rf package/istore/.svn
+#sed -i 's/luci-lib-ipkg/luci-base/g' package/istore/luci-app-store/Makefile
+#sed -i 's/("iStore"), 31/("应用商店"), 61/g' package/istore/luci-app-store/luasrc/controller/store.lua
+
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
-# Modify default theme
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
 sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
 
-# 设置无线的国家代码为CN,wifi的默认功率为20
+# 设置无线的国家代码为CN,wifi的默认功率为20 默认开启MU-MIMO
+sed -i 's/encryption=none/encryption=psk-mixed/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=psk-mixed/a\\t\t\tset wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
 sed -i 's/country=US/country=CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.txpower=20' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-# 设置默认开启MU-MIMO
+
 sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.mu_beamformer=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt/wifi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
 
 sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/files/bin/config_generate
