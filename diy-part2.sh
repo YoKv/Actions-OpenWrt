@@ -25,3 +25,5 @@ sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devi
 
 # 设置默认开启MU-MIMO
 sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.mu_beamformer=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/files/bin/config_generate
