@@ -51,9 +51,7 @@ http:
     enabled: false
   address: 0.0.0.0:3000
   session_ttl: 720h
-users:
-  - name: root
-    password: $2y$10$w7c/AlzscIfwjMVxIMnw3ub0J.KHUvkDAsrhzDp59YemD4eBcS1Uu
+users: []
 auth_attempts: 5
 block_auth_min: 1
 http_proxy: ""
@@ -86,9 +84,9 @@ dns:
   trusted_proxies:
     - 127.0.0.0/8
     - ::1/128
-  cache_size: 0
-  cache_ttl_min: 0
-  cache_ttl_max: 60
+  cache_size: 1048576
+  cache_ttl_min: 10
+  cache_ttl_max: 120
   cache_optimistic: false
   bogus_nxdomain: []
   aaaa_disabled: false
