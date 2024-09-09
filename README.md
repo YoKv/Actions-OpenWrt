@@ -77,3 +77,13 @@ mkswap /mnt/sda1/swapfile && swapon /mnt/sda1/swapfile
 
 swapoff /mnt/sda1/swapfile && rm /mnt/sda1/swapfile
 ```
+
+## todo
+
+```shell
+usb 
+
+disk
+
+```
+
