@@ -53,6 +53,25 @@ A template for building OpenWrt with GitHub Actions
 ## samba
 
 ```shell
+sed -i 's#downloads.openwrt.org#mirrors.tencent.com/lede#g' /etc/opkg/distfeeds.conf
+
+
+src/gz openwrt_core https://mirrors.tencent.com/lede/snapshots/targets/qualcommax/ipq60xx/packages
+src/gz openwrt_base https://mirrors.tencent.com/lede/snapshots/packages/aarch64_cortex-a53/base
+src/gz openwrt_luci https://mirrors.tencent.com/lede/releases/18.06.9/packages/aarch64_cortex-a53/luci
+src/gz openwrt_packages https://mirrors.tencent.com/lede/snapshots/packages/aarch64_cortex-a53/packages
+src/gz openwrt_routing https://mirrors.tencent.com/lede/snapshots/packages/aarch64_cortex-a53/routing
+src/gz openwrt_telephony https://mirrors.tencent.com/lede/snapshots/packages/aarch64_cortex-a53/telephony
+
+
+src/gz openwrt_core https://mirrors.aliyun.com/openwrt/snapshots/targets/qualcommax/ipq60xx/packages
+src/gz openwrt_base https://mirrors.aliyun.com/openwrt/snapshots/packages/aarch64_cortex-a53/base
+src/gz openwrt_luci https://mirrors.aliyun.com/openwrt/releases/18.06.9/packages/aarch64_cortex-a53/luci
+src/gz openwrt_packages https://mirrors.aliyun.com/openwrt/snapshots/packages/aarch64_cortex-a53/packages
+src/gz openwrt_routing https://mirrors.aliyun.com/openwrt/snapshots/packages/aarch64_cortex-a53/routing
+src/gz openwrt_telephony https://mirrors.aliyun.com/openwrt/snapshots/packages/aarch64_cortex-a53/telephony
+
+
 opkg update
 opkg install shadow-useradd && useradd user && smbpasswd -a user
 
@@ -85,7 +104,6 @@ usb
 
 disk
 
-sed -i 's#downloads.openwrt.org#mirrors.tencent.com/lede#g' /etc/opkg/distfeeds.conf
 
 ```
 
