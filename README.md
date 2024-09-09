@@ -85,5 +85,7 @@ usb
 
 disk
 
+sed -i 's#downloads.openwrt.org#mirrors.tencent.com/lede#g' /etc/opkg/distfeeds.conf
+
 ```
 
