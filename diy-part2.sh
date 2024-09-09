@@ -10,9 +10,6 @@
 # See /LICENSE for more information.
 #
 
-
-
-
 rm -rf feeds/luci/themes/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
@@ -21,6 +18,21 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
+rm -rf package/base-files/files/etc/banner
+cat>package/base-files/files/etc/banner<<EOF
+
+ ███▄ ▄███▓ ▒█████   ██▀███    ▄████  ▄▄▄       ███▄    █
+▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒ ██▒ ▀█▒▒████▄     ██ ▀█   █
+▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▒██░▄▄▄░▒██  ▀█▄  ▓██  ▀█ ██▒
+▒██    ▒██ ▒██   ██░▒██▀▀█▄  ░▓█  ██▓░██▄▄▄▄██ ▓██▒  ▐▌██▒
+▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░▒▓███▀▒ ▓█   ▓██▒▒██░   ▓██░
+░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░ ░▒   ▒  ▒▒   ▓▒█░░ ▒░   ▒ ▒
+░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░   ░   ▒   ▒▒ ░░ ░░   ░ ▒░
+░      ░   ░ ░ ░ ▒    ░░   ░ ░ ░   ░   ░   ▒      ░   ░ ░
+       ░       ░ ░     ░           ░       ░  ░         ░
+%D %C Built By
+EOF
+sed -i 's/Built By/Built By $(date -R)/g' package/base-files/files/etc/banner
 
 # Modify hostname
 sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
@@ -130,12 +142,12 @@ querylog:
   ignored: []
   interval: 2h
   size_memory: 1000
-  enabled: true
+  enabled: false
   file_enabled: true
 statistics:
   dir_path: ""
   ignored: []
-  interval: 2h
+  interval: 1h
   enabled: true
 filters:
   - enabled: true
