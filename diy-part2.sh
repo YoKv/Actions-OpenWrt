@@ -16,7 +16,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 
 rm -rf package/base-files/files/etc/banner
 cat>package/base-files/files/etc/banner<<EOF
-
  ███▄ ▄███▓ ▒█████   ██▀███    ▄████  ▄▄▄       ███▄    █
 ▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒ ██▒ ▀█▒▒████▄     ██ ▀█   █
 ▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▒██░▄▄▄░▒██  ▀█▄  ▓██  ▀█ ██▒
@@ -26,9 +25,7 @@ cat>package/base-files/files/etc/banner<<EOF
 ░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░   ░   ▒   ▒▒ ░░ ░░   ░ ▒░
 ░      ░   ░ ░ ░ ▒    ░░   ░ ░ ░   ░   ░   ▒      ░   ░ ░
        ░       ░ ░     ░           ░       ░  ░         ░
-%D %C Built By
 EOF
-sed -i 's/Built By/Built By $(date -R)/g' package/base-files/files/etc/banner
 
 # Modify hostname
 sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
@@ -106,7 +103,7 @@ dns:
     custom_ip: ""
     enabled: false
     use_custom: false
-  max_goroutines: 300
+  max_goroutines: 20
   handle_ddr: true
   ipset: []
   ipset_file: ""
