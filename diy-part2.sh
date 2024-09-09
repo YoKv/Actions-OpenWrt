@@ -58,7 +58,7 @@ http:
     port: 6060
     enabled: false
   address: 0.0.0.0:3000
-  session_ttl: 720h
+  session_ttl: 2h
 users: []
 auth_attempts: 5
 block_auth_min: 1
