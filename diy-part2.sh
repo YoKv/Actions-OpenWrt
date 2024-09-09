@@ -14,10 +14,6 @@ rm -rf feeds/luci/themes/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-
-# Modify default IP
-sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
-
 rm -rf package/base-files/files/etc/banner
 cat>package/base-files/files/etc/banner<<EOF
 
@@ -36,6 +32,9 @@ sed -i 's/Built By/Built By $(date -R)/g' package/base-files/files/etc/banner
 
 # Modify hostname
 sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
+
+# Modify default IP
+sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
 # 设置无线的国家代码为CN,wifi的默认功率为20 默认开启MU-MIMO
 sed -i 's/encryption=none/encryption=psk-mixed/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
