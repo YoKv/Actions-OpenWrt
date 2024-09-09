@@ -48,8 +48,8 @@ A template for building OpenWrt with GitHub Actions
 ## samba
 
 ```shell
-useradd user
-smbpasswd -a user
+opkg update
+opkg install shadow-useradd && useradd user && smbpasswd -a user
 
 可浏览 强制Root 继承所有者 0777 0777
 ```
