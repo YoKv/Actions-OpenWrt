@@ -43,13 +43,6 @@ A template for building OpenWrt with GitHub Actions
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
 
-## wifi按如下配置
-
-1. QCA
-    - 地区CN
-    - 带宽20/80 信道11/149 功率20
-    - 开启MIMO 加密WPA2PSK 算法CCMP
-
 ## samba
 
 ```shell
@@ -103,6 +96,13 @@ swapoff /mnt/sda1/swapfile && rm /mnt/sda1/swapfile
 usb 
 
 disk
+
+
+daemon.warn odhcpd[1833]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+
+
+Out of memory: Killed process 9377 (AdGuardHome) total-vm:1263516kB, anon-rss:25204kB, file-rss:2360kB, shmem-rss:0kB, UID:0 pgtables:160kB oom_score_adj:0
+
 
 
 ```

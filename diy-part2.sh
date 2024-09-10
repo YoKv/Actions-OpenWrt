@@ -33,19 +33,25 @@ sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
-# 设置无线的国家代码为CN,wifi的默认功率为20 默认开启MU-MIMO
-sed -i 's/encryption=none/encryption=psk-mixed/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-sed -i '/set wireless.default_radio${devidx}.encryption=psk-mixed/a\\t\t\tset wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-
-sed -i 's/country=US/country=CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.txpower=20' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-
-
-sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.mu_beamformer=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-sed -i 's/OpenWrt/wifi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-
-
 sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/files/bin/config_generate
+# dhcp leasetime
+sed -i 's/12h/2h/g'  package/network/services/odhcpd/files/odhcpd.defaults
+sed -i 's/12h/2h/g'  package/network/services/dnsmasq/files/dhcp.conf
+
+# 设置无线的国家代码为CN,wifi的默认功率为20 默认开启MU-MIMO,k,v
+sed -i '/set wireless.default_radio${devidx}.encryption=none/a\\t\t\tset wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=none/a\\t\t\tset wireless.default_radio${devidx}.ieee80211k=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=none/a\\t\t\tset wireless.default_radio${devidx}.ieee80211v=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=none/a\\t\t\tset wireless.default_radio${devidx}.bss_transition=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=none/a\\t\t\tset wireless.default_radio${devidx}.time_advertisement=0' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.txpower=20' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.mu_beamformer=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+sed -i 's/OpenWrt/wifi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/country=US/country=CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/encryption=none/encryption=psk-mixed/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/wireless.radio${devidx}.channel=${channel}/wireless.radio${devidx}.channel=auto/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 
 rm -rf package/lean/luci-app-adguardhome
