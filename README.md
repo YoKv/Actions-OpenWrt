@@ -83,6 +83,8 @@ opkg install shadow-useradd && useradd user && smbpasswd -a user
 ## todo
 
 ```shell
+使用自定义的 DNS 服务器
+
 usb 
 
 disk
