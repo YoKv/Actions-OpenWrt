@@ -79,16 +79,6 @@ opkg install shadow-useradd && useradd user && smbpasswd -a user
 
 ````
 
-## swap
-
-```shell
-dd if=/dev/zero of=/mnt/sda1/swapfile bs=1M count=1024
-
-mkswap /mnt/sda1/swapfile && swapon /mnt/sda1/swapfile
-
-
-swapoff /mnt/sda1/swapfile && rm /mnt/sda1/swapfile
-```
 
 ## todo
 
