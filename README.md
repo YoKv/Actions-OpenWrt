@@ -47,7 +47,12 @@ A template for building OpenWrt with GitHub Actions
 
 ```shell
 
-opkg update
-opkg install shadow-useradd && useradd user && smbpasswd -a user
+smbpasswd -a user
+
+```
+
+
+```shell
+usb
 
 ```
