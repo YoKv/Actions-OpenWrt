@@ -1,336 +1,336 @@
-6in4 - 26
-aria2 - 1.36.0-2
-ariang - 1.3.2-1
-ath11k-firmware-ipq6018 - 2023-03-31-a039049a-1
-attr - 2.5.1-1
-automount - 1-40
-avahi-dbus-daemon - 0.8-7
-base-files - 78-r6840-cceaa09ba
-blkid - 2.38.1-1
-block-mount - 2024-01-22-08cd7083-1
-busybox - 1.36.0-1
-ca-bundle - 20211016-1
-ca-certificates - 20211016-1
-curl - 8.6.0-1
-dbus - 1.13.18-1
-default-settings - 184
-dnsmasq-full - 2.88-2
-dropbear - 2022.82-4
-e2fsprogs - 1.47.0-2
-etherwake - 1.09-5
-f2fsck - 1.16.0-3
-firewall - 2022-02-17-4cd7d4f3-3
-fstools - 2024-01-22-08cd7083-1
-fwtool - 2019-11-12-8f7fe925-1
-getrandom - 2022-08-13-4c7b720b-14
-hostapd-common - 2022-07-29-b704dc72-9
-ip-full - 6.2.0-1
-ip6tables - 1.8.7-2
-iperf3 - 3.17.1-1
-ipq-wifi-jdcloud_ax1800pro - 2024-04-16-1d51799e-1
-ipset - 7.17-1
-iptables - 1.8.7-2
-iptables-mod-conntrack-extra - 1.8.7-2
-iptables-mod-extra - 1.8.7-2
-iptables-mod-fullconenat - 2022-02-13-108a36cb-10
-iptables-mod-tproxy - 1.8.7-2
-ipv6helper - 1.0-2
-iw - 5.19-1
-iwinfo - 2024-03-08-8ffb8bfd-1
-jshn - 2022-09-27-ea560134-1
-jsonfilter - 2018-02-04-c7e938d6-1
-kernel - 6.1.100-1-a928a249050fba3ef057fc548f2fdfb1
-kmod-asn1-decoder - 6.1.100-1
-kmod-ath - 6.1.100+6.1.24-3
-kmod-ath11k - 6.1.100+6.1.24-3
-kmod-ath11k-ahb - 6.1.100+6.1.24-3
-kmod-bonding - 6.1.100-1
-kmod-cfg80211 - 6.1.100+6.1.24-3
-kmod-crypto-acompress - 6.1.100-1
-kmod-crypto-aead - 6.1.100-1
-kmod-crypto-arc4 - 6.1.100-1
-kmod-crypto-authenc - 6.1.100-1
-kmod-crypto-ccm - 6.1.100-1
-kmod-crypto-cmac - 6.1.100-1
-kmod-crypto-crc32c - 6.1.100-1
-kmod-crypto-ctr - 6.1.100-1
-kmod-crypto-ecb - 6.1.100-1
-kmod-crypto-gcm - 6.1.100-1
-kmod-crypto-gf128 - 6.1.100-1
-kmod-crypto-ghash - 6.1.100-1
-kmod-crypto-hash - 6.1.100-1
-kmod-crypto-hmac - 6.1.100-1
-kmod-crypto-manager - 6.1.100-1
-kmod-crypto-michael-mic - 6.1.100-1
-kmod-crypto-null - 6.1.100-1
-kmod-crypto-rng - 6.1.100-1
-kmod-crypto-seqiv - 6.1.100-1
-kmod-crypto-sha1 - 6.1.100-1
-kmod-crypto-sha3 - 6.1.100-1
-kmod-crypto-sha512 - 6.1.100-1
-kmod-crypto-user - 6.1.100-1
-kmod-cryptodev - 6.1.100+1.13-qualcommax-2
-kmod-fs-exfat - 6.1.100-1
-kmod-fs-ext4 - 6.1.100-1
-kmod-fs-ntfs3 - 6.1.100-1
-kmod-fs-vfat - 6.1.100-1
-kmod-gpio-button-hotplug - 6.1.100-3
-kmod-gre - 6.1.100-1
-kmod-hwmon-core - 6.1.100-1
-kmod-ip6tables - 6.1.100-1
-kmod-ipt-conntrack - 6.1.100-1
-kmod-ipt-conntrack-extra - 6.1.100-1
-kmod-ipt-core - 6.1.100-1
-kmod-ipt-extra - 6.1.100-1
-kmod-ipt-fullconenat - 6.1.100+2022-02-13-108a36cb-10
-kmod-ipt-ipset - 6.1.100-1
-kmod-ipt-nat - 6.1.100-1
-kmod-ipt-nat6 - 6.1.100-1
-kmod-ipt-raw - 6.1.100-1
-kmod-ipt-tproxy - 6.1.100-1
-kmod-iptunnel - 6.1.100-1
-kmod-iptunnel4 - 6.1.100-1
-kmod-leds-gpio - 6.1.100-1
-kmod-lib-crc-ccitt - 6.1.100-1
-kmod-lib-crc16 - 6.1.100-1
-kmod-lib-lzo - 6.1.100-1
-kmod-lib-textsearch - 6.1.100-1
-kmod-mac80211 - 6.1.100+6.1.24-3
-kmod-macvlan - 6.1.100-1
-kmod-mppe - 6.1.100-1
-kmod-nf-conntrack - 6.1.100-1
-kmod-nf-conntrack-netlink - 6.1.100-1
-kmod-nf-conntrack6 - 6.1.100-1
-kmod-nf-ipt - 6.1.100-1
-kmod-nf-ipt6 - 6.1.100-1
-kmod-nf-log - 6.1.100-1
-kmod-nf-log6 - 6.1.100-1
-kmod-nf-nat - 6.1.100-1
-kmod-nf-nat6 - 6.1.100-1
-kmod-nf-nathelper - 6.1.100-1
-kmod-nf-nathelper-extra - 6.1.100-1
-kmod-nf-reject - 6.1.100-1
-kmod-nf-reject6 - 6.1.100-1
-kmod-nf-tproxy - 6.1.100-1
-kmod-nfnetlink - 6.1.100-1
-kmod-nls-base - 6.1.100-1
-kmod-nls-cp437 - 6.1.100-1
-kmod-nls-iso8859-1 - 6.1.100-1
-kmod-nls-utf8 - 6.1.100-1
-kmod-ppp - 6.1.100-1
-kmod-pppoe - 6.1.100-1
-kmod-pppox - 6.1.100-1
-kmod-pptp - 6.1.100-1
-kmod-qca-nss-dp - 6.1.100+2023-06-06-fa674644-2
-kmod-qca-nss-drv - 6.1.100+2023-08-06-1ab18403-1
-kmod-qca-nss-drv-bridge-mgr - 6.1.100+2023-10-04-f058ae19-1
-kmod-qca-nss-drv-pppoe - 6.1.100+2023-10-04-f058ae19-1
-kmod-qca-nss-drv-vlan-mgr - 6.1.100+2023-10-04-f058ae19-1
-kmod-qca-nss-ecm - 6.1.100+2023-10-20-82b27915-2
-kmod-qca-ssdk - 6.1.100+2023-06-06-74caf88a-1
-kmod-qrtr - 6.1.100-1
-kmod-qrtr-smd - 6.1.100-1
-kmod-scsi-core - 6.1.100-1
-kmod-sit - 6.1.100-1
-kmod-slhc - 6.1.100-1
-kmod-tcp-bbr - 6.1.100-1
-kmod-thermal - 6.1.100-1
-kmod-tun - 6.1.100-1
-kmod-usb-core - 6.1.100-1
-kmod-usb-dwc3 - 6.1.100-1
-kmod-usb-dwc3-qcom - 6.1.100-1
-kmod-usb-storage - 6.1.100-1
-kmod-usb-storage-extras - 6.1.100-1
-kmod-usb-storage-uas - 6.1.100-1
-kmod-usb-xhci-hcd - 6.1.100-1
-kmod-usb3 - 6.1.100-1
-kmod-zram - 6.1.100-1
-libatomic1 - 11.3.0-4
-libattr - 2.5.1-1
-libavahi-client - 0.8-7
-libavahi-dbus-support - 0.8-7
-libblkid1 - 2.38.1-1
-libblobmsg-json20220927 - 2022-09-27-ea560134-1
-libbpf20220308 - 2022-03-08-04c465fd-1
-libc - 1.2.4-4
-libcap - 2.68-1
-libcomerr0 - 1.47.0-2
-libcurl4 - 8.6.0-1
-libdaemon - 0.14-5
-libdbus - 1.13.18-1
-libelf1 - 0.188-1
-libexpat - 2.5.0-1
-libext2fs2 - 1.47.0-2
-libf2fs6 - 1.16.0-3
-libgcc1 - 11.3.0-4
-libgmp10 - 6.2.1-1
-libgnutls - 3.8.3-1
-libip4tc2 - 1.8.7-2
-libip6tc2 - 1.8.7-2
-libiperf3 - 3.17.1-1
-libipset13 - 7.17-1
-libiwinfo-data - 2024-03-08-8ffb8bfd-1
-libiwinfo-lua - 2024-03-08-8ffb8bfd-1
-libiwinfo20230701 - 2024-03-08-8ffb8bfd-1
-libjson-c5 - 0.17-1
-libjson-script20220927 - 2022-09-27-ea560134-1
-liblua5.1.5 - 5.1.5-11
-libminiupnpc - 2.2.3-1
-libmnl0 - 1.0.5-1
-libmount1 - 2.38.1-1
-libnatpmp1 - 20150609-3
-libncurses6 - 6.4-1
-libnettle8 - 3.9-1
-libnghttp2-14 - 1.51.0-1
-libnl-tiny2023-07-01 - 2023-07-01-d433990c-1
-libopenssl-conf - 3.0.14-1
-libopenssl3 - 3.0.14-1
-libparted - 3.4-1
-libpopt0 - 1.19-1
-libpthread - 1.2.4-4
-libreadline8 - 8.2-1
-librt - 1.2.4-4
-libsmartcols1 - 2.38.1-1
-libss2 - 1.47.0-2
-libstdcpp6 - 11.3.0-4
-libtasn1 - 4.19.0-1
-libtirpc - 1.3.3-1
-libubox20220927 - 2022-09-27-ea560134-1
-libubus-lua - 2022-06-01-2bebf93c-1
-libubus20220601 - 2022-06-01-2bebf93c-1
-libuci-lua - 2021-10-22-f84f49f0-6
-libuci20130104 - 2021-10-22-f84f49f0-6
-libuclient20201210 - 2021-05-14-6a6011df-1
-liburing - 2.3-1
-libustream-openssl20201210 - 2022-12-08-9217ab46-1
-libuuid1 - 2.38.1-1
-libuv1 - 1.48.0-1
-libwebsockets-full - 4.3.2-3
-libxtables12 - 1.8.7-2
-logd - 2022-08-13-4c7b720b-14
-losetup - 2.38.1-1
-lsblk - 2.38.1-1
-lua - 5.1.5-11
-luci - git-24.182.36151-66d29de-1
-luci-app-adguardhome - 1.8-11
-luci-app-argon-config - 0.9-20220424
-luci-app-aria2 - 1.0.1-3
-luci-app-arpbind - 1-3
-luci-app-autoreboot - 1.0-8
-luci-app-diskman - v0.2.11-3
-luci-app-filetransfer - 1-2
-luci-app-firewall - git-24.182.36151-66d29de-1
-luci-app-nlbwmon - git-24.182.36151-66d29de-1
-luci-app-samba4 - git-24.182.36151-66d29de-1
-luci-app-ttyd - 1.0-3
-luci-app-turboacc - git-24.182.36151-66d29de-1
-luci-app-upnp - git-24.182.36151-66d29de-1
-luci-app-wol - git-24.182.36151-66d29de-1
-luci-app-zerotier - 1.0-20
-luci-base - git-24.182.36151-66d29de-1
-luci-compat - git-24.182.36151-66d29de-1
-luci-i18n-argon-config-zh-cn - 0.9-20220424
-luci-i18n-aria2-zh-cn - 1.0.1-3
-luci-i18n-arpbind-zh-cn - 1-3
-luci-i18n-autoreboot-zh-cn - 1.0-8
-luci-i18n-base-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-diskman-zh-cn - v0.2.11-3
-luci-i18n-filetransfer-zh-cn - 1-2
-luci-i18n-firewall-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-nlbwmon-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-samba4-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-ttyd-zh-cn - 1.0-3
-luci-i18n-turboacc-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-upnp-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-wol-zh-cn - git-24.182.36151-66d29de-1
-luci-i18n-zerotier-zh-cn - 1.0-20
-luci-lib-fs - 1.0-1
-luci-lib-ip - git-24.182.36151-66d29de-1
-luci-lib-ipkg - git-24.182.36151-66d29de-1
-luci-lib-jsonc - git-24.182.36151-66d29de-1
-luci-lib-nixio - git-24.182.36151-66d29de-1
-luci-lua-runtime - git-24.182.36151-66d29de-1
-luci-mod-admin-full - git-24.182.36151-66d29de-1
-luci-proto-ipv6 - git-24.182.36151-66d29de-1
-luci-proto-ppp - git-24.182.36151-66d29de-1
-luci-theme-argon - 1.8.3-20230710
-miniupnpd - 2.0.20170421-3
-mkf2fs - 1.16.0-3
-mtd - 26
-netifd - 2021-06-04-50381d0a-1
-nlbwmon - 2021-09-01-d82c910c-1
-nss-firmware-ipq6018 - 2022-07-14-ade6bff5-1
-odhcp6c - 2021-01-09-53f07e90-18
-odhcpd-ipv6only - 2021-06-19-564d25e5-15
-openwrt-keyring - 2022-03-25-62471e69-2
-opkg - 2022-02-24-d038e5b6-5
-parted - 3.4-1
-pdnsd-alt - 1.2.9b-par-3
-ppp - 2.4.9.git-2021-01-04-6
-ppp-mod-pppoe - 2.4.9.git-2021-01-04-6
-procd - 2023-01-16-190f13a7-1
-procd-seccomp - 2023-01-16-190f13a7-1
-procd-ujail - 2023-01-16-190f13a7-1
-rpcd - 2023-01-21-c0df2a7a-1
-rpcd-mod-rrdns - 20170710
-samba4-libs - 4.14.14-1
-samba4-server - 4.14.14-1
-shadow - 4.8.1-3
-shadow-chage - 4.8.1-3
-shadow-chfn - 4.8.1-3
-shadow-chgpasswd - 4.8.1-3
-shadow-chpasswd - 4.8.1-3
-shadow-chsh - 4.8.1-3
-shadow-common - 4.8.1-3
-shadow-expiry - 4.8.1-3
-shadow-faillog - 4.8.1-3
-shadow-gpasswd - 4.8.1-3
-shadow-groupadd - 4.8.1-3
-shadow-groupdel - 4.8.1-3
-shadow-groupmems - 4.8.1-3
-shadow-groupmod - 4.8.1-3
-shadow-groups - 4.8.1-3
-shadow-grpck - 4.8.1-3
-shadow-grpconv - 4.8.1-3
-shadow-grpunconv - 4.8.1-3
-shadow-lastlog - 4.8.1-3
-shadow-login - 4.8.1-3
-shadow-logoutd - 4.8.1-3
-shadow-newgidmap - 4.8.1-3
-shadow-newgrp - 4.8.1-3
-shadow-newuidmap - 4.8.1-3
-shadow-newusers - 4.8.1-3
-shadow-nologin - 4.8.1-3
-shadow-passwd - 4.8.1-3
-shadow-pwck - 4.8.1-3
-shadow-pwconv - 4.8.1-3
-shadow-pwunconv - 4.8.1-3
-shadow-su - 4.8.1-3
-shadow-useradd - 4.8.1-3
-shadow-userdel - 4.8.1-3
-shadow-usermod - 4.8.1-3
-shadow-utils - 4.8.1-3
-shadow-vipw - 4.8.1-3
-shellsync - 0.2-2
-smartmontools - 7.4-1
-terminfo - 6.4-1
-ttyd - 1.6.3-3
-ubi-utils - 2.1.5-1
-uboot-envtools - 2023.01-1
-ubox - 2022-08-13-4c7b720b-14
-ubus - 2022-06-01-2bebf93c-1
-ubusd - 2022-06-01-2bebf93c-1
-uci - 2021-10-22-f84f49f0-6
-uclient-fetch - 2021-05-14-6a6011df-1
-uhttpd - 2022-10-31-23977554-1
-uhttpd-mod-ubus - 2022-10-31-23977554-1
-urandom-seed - 3
-urngd - 2020-01-21-c7f7b6b6-1
-usign - 2020-05-23-f1f65026-1
-wireless-regdb - 2022.08.12-1
-wol - 0.7.1-3
-wpad-openssl - 2022-07-29-b704dc72-9
-wsdd2 - 2021-10-22-9831daf2-1
-zerotier - 1.14.0-1
-zlib - 1.2.13-9
-zram-swap - 6
+6in4 
+aria2 
+ariang 
+ath11k-firmware-ipq6018 
+attr 
+automount 
+avahi-dbus-daemon 
+base-files 
+blkid 
+block-mount 
+busybox 
+ca-bundle 
+ca-certificates 
+curl 
+dbus 
+default-settings 
+dnsmasq-full 
+dropbear 
+e2fsprogs 
+etherwake 
+f2fsck 
+firewall 
+fstools 
+fwtool 
+getrandom 
+hostapd-common 
+ip-full 
+ip6tables 
+iperf3 
+ipq-wifi-jdcloud_ax1800pro 
+ipset 
+iptables 
+iptables-mod-conntrack-extra 
+iptables-mod-extra 
+iptables-mod-fullconenat 
+iptables-mod-tproxy 
+ipv6helper 
+iw 
+iwinfo 
+jshn 
+jsonfilter 
+kernel 
+kmod-asn1-decoder 
+kmod-ath 
+kmod-ath11k 
+kmod-ath11k-ahb 
+kmod-bonding 
+kmod-cfg80211 
+kmod-crypto-acompress 
+kmod-crypto-aead 
+kmod-crypto-arc4 
+kmod-crypto-authenc 
+kmod-crypto-ccm 
+kmod-crypto-cmac 
+kmod-crypto-crc32c 
+kmod-crypto-ctr 
+kmod-crypto-ecb 
+kmod-crypto-gcm 
+kmod-crypto-gf128 
+kmod-crypto-ghash 
+kmod-crypto-hash 
+kmod-crypto-hmac 
+kmod-crypto-manager 
+kmod-crypto-michael-mic 
+kmod-crypto-null 
+kmod-crypto-rng 
+kmod-crypto-seqiv 
+kmod-crypto-sha1 
+kmod-crypto-sha3 
+kmod-crypto-sha512 
+kmod-crypto-user 
+kmod-cryptodev 
+kmod-fs-exfat 
+kmod-fs-ext4 
+kmod-fs-ntfs3 
+kmod-fs-vfat 
+kmod-gpio-button-hotplug 
+kmod-gre 
+kmod-hwmon-core 
+kmod-ip6tables 
+kmod-ipt-conntrack 
+kmod-ipt-conntrack-extra 
+kmod-ipt-core 
+kmod-ipt-extra 
+kmod-ipt-fullconenat 
+kmod-ipt-ipset 
+kmod-ipt-nat 
+kmod-ipt-nat6 
+kmod-ipt-raw 
+kmod-ipt-tproxy 
+kmod-iptunnel 
+kmod-iptunnel4 
+kmod-leds-gpio 
+kmod-lib-crc-ccitt 
+kmod-lib-crc16 
+kmod-lib-lzo 
+kmod-lib-textsearch 
+kmod-mac80211 
+kmod-macvlan 
+kmod-mppe 
+kmod-nf-conntrack 
+kmod-nf-conntrack-netlink 
+kmod-nf-conntrack6 
+kmod-nf-ipt 
+kmod-nf-ipt6 
+kmod-nf-log 
+kmod-nf-log6 
+kmod-nf-nat 
+kmod-nf-nat6 
+kmod-nf-nathelper 
+kmod-nf-nathelper-extra 
+kmod-nf-reject 
+kmod-nf-reject6 
+kmod-nf-tproxy 
+kmod-nfnetlink 
+kmod-nls-base 
+kmod-nls-cp437 
+kmod-nls-iso8859-1 
+kmod-nls-utf8 
+kmod-ppp 
+kmod-pppoe 
+kmod-pppox 
+kmod-pptp 
+kmod-qca-nss-dp 
+kmod-qca-nss-drv 
+kmod-qca-nss-drv-bridge-mgr 
+kmod-qca-nss-drv-pppoe 
+kmod-qca-nss-drv-vlan-mgr 
+kmod-qca-nss-ecm 
+kmod-qca-ssdk 
+kmod-qrtr 
+kmod-qrtr-smd 
+kmod-scsi-core 
+kmod-sit 
+kmod-slhc 
+kmod-tcp-bbr 
+kmod-thermal 
+kmod-tun 
+kmod-usb-core 
+kmod-usb-dwc3 
+kmod-usb-dwc3-qcom 
+kmod-usb-storage 
+kmod-usb-storage-extras 
+kmod-usb-storage-uas 
+kmod-usb-xhci-hcd 
+kmod-usb3 
+kmod-zram 
+libatomic1 
+libattr 
+libavahi-client 
+libavahi-dbus-support 
+libblkid1 
+libblobmsg-json20220927 
+libbpf20220308 
+libc 
+libcap 
+libcomerr0 
+libcurl4 
+libdaemon 
+libdbus 
+libelf1 
+libexpat 
+libext2fs2 
+libf2fs6 
+libgcc1 
+libgmp10 
+libgnutls 
+libip4tc2 
+libip6tc2 
+libiperf3 
+libipset13 
+libiwinfo-data 
+libiwinfo-lua 
+libiwinfo20230701 
+libjson-c5 
+libjson-script20220927 
+liblua5.1.5 
+libminiupnpc 
+libmnl0 
+libmount1 
+libnatpmp1 
+libncurses6 
+libnettle8 
+libnghttp2-14 
+libnl-tiny2023-07-01 
+libopenssl-conf 
+libopenssl3 
+libparted 
+libpopt0 
+libpthread 
+libreadline8 
+librt 
+libsmartcols1 
+libss2 
+libstdcpp6 
+libtasn1 
+libtirpc 
+libubox20220927 
+libubus-lua 
+libubus20220601 
+libuci-lua 
+libuci20130104 
+libuclient20201210 
+liburing 
+libustream-openssl20201210 
+libuuid1 
+libuv1 
+libwebsockets-full 
+libxtables12 
+logd 
+losetup 
+lsblk 
+lua 
+luci 
+luci-app-adguardhome 
+luci-app-argon-config 
+luci-app-aria2 
+luci-app-arpbind 
+luci-app-autoreboot 
+luci-app-diskman 
+luci-app-filetransfer 
+luci-app-firewall 
+luci-app-nlbwmon 
+luci-app-samba4 
+luci-app-ttyd 
+luci-app-turboacc 
+luci-app-upnp 
+luci-app-wol 
+luci-app-zerotier 
+luci-base 
+luci-compat 
+luci-i18n-argon-config-zh-cn 
+luci-i18n-aria2-zh-cn 
+luci-i18n-arpbind-zh-cn 
+luci-i18n-autoreboot-zh-cn 
+luci-i18n-base-zh-cn 
+luci-i18n-diskman-zh-cn 
+luci-i18n-filetransfer-zh-cn 
+luci-i18n-firewall-zh-cn 
+luci-i18n-nlbwmon-zh-cn 
+luci-i18n-samba4-zh-cn 
+luci-i18n-ttyd-zh-cn 
+luci-i18n-turboacc-zh-cn 
+luci-i18n-upnp-zh-cn 
+luci-i18n-wol-zh-cn 
+luci-i18n-zerotier-zh-cn 
+luci-lib-fs 
+luci-lib-ip 
+luci-lib-ipkg 
+luci-lib-jsonc 
+luci-lib-nixio 
+luci-lua-runtime 
+luci-mod-admin-full 
+luci-proto-ipv6 
+luci-proto-ppp 
+luci-theme-argon 
+miniupnpd 
+mkf2fs 
+mtd 
+netifd 
+nlbwmon 
+nss-firmware-ipq6018 
+odhcp6c 
+odhcpd-ipv6only 
+openwrt-keyring 
+opkg 
+parted 
+pdnsd-alt 
+ppp 
+ppp-mod-pppoe 
+procd 
+procd-seccomp 
+procd-ujail 
+rpcd 
+rpcd-mod-rrdns 
+samba4-libs 
+samba4-server 
+shadow 
+shadow-chage 
+shadow-chfn 
+shadow-chgpasswd 
+shadow-chpasswd 
+shadow-chsh 
+shadow-common 
+shadow-expiry 
+shadow-faillog 
+shadow-gpasswd 
+shadow-groupadd 
+shadow-groupdel 
+shadow-groupmems 
+shadow-groupmod 
+shadow-groups 
+shadow-grpck 
+shadow-grpconv 
+shadow-grpunconv 
+shadow-lastlog 
+shadow-login 
+shadow-logoutd 
+shadow-newgidmap 
+shadow-newgrp 
+shadow-newuidmap 
+shadow-newusers 
+shadow-nologin 
+shadow-passwd 
+shadow-pwck 
+shadow-pwconv 
+shadow-pwunconv 
+shadow-su 
+shadow-useradd 
+shadow-userdel 
+shadow-usermod 
+shadow-utils 
+shadow-vipw 
+shellsync 
+smartmontools 
+terminfo 
+ttyd 
+ubi-utils 
+uboot-envtools 
+ubox 
+ubus 
+ubusd 
+uci 
+uclient-fetch 
+uhttpd 
+uhttpd-mod-ubus 
+urandom-seed 
+urngd 
+usign 
+wireless-regdb 
+wol 
+wpad-openssl 
+wsdd2 
+zerotier 
+zlib 
+zram-swap 

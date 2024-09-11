@@ -1,744 +1,744 @@
-6in4 - 24-1
-6rd - 9-2
-6to4 - 12-2
-adblock - 4.1.5-9
-alsa-lib - 1.1.6-1
-alsa-utils - 1.0.28-2
-autocore-arm - 2-47
-automount - 1-35
-autosamba - 1-12
-badblocks - 1.46.5-1
-base-files - 199-r673-88ca66eb5
-bash - 4.4.18-2
-blkid - 2.37-2
-block-mount - 2021-08-14-2e3aca29-7
-blockd - 2021-08-14-2e3aca29-7
-boost - 1.71.0-6
-boost-chrono - 1.71.0-6
-boost-date_time - 1.71.0-6
-boost-program_options - 1.71.0-6
-boost-random - 1.71.0-6
-boost-system - 1.71.0-6
-busybox - 1.28.3-5
-bzip2 - 1.0.8-1
-ca-bundle - 20230311-1
-ca-certificates - 20230311-1
-cfdisk - 2.37-2
-cgroupfs-mount - 1.4-1
-chat - 2.4.7.git-2019-05-25-3
-chinadns-ng - 2023.10.28-1
-clash - 1.18.0-13
-conntrack - 1.4.4-1
-conntrackd - 1.4.4-1
-coremark - 2021-03-12-1541482b-2
-coreutils - 8.23-8
-coreutils-base64 - 8.23-8
-coreutils-nohup - 8.23-8
-coreutils-stat - 8.23-8
-coreutils-stty - 8.23-8
-curl - 8.0.1-1
-ddns-scripts - 2.7.8-5
-ddns-scripts_aliyun - 1.0.3-1
-ddns-scripts_dnspod - 1.0.2-1
-ddnsto - 3.0.4-aarch64-7
-default-settings - 5-2
-dns2socks - 2.1-2
-dns2tcp - 1.1.0-1
-dnsmasq-full - 2.86-2
-dropbear - 2017.75-5
-e2fsprogs - 1.46.5-1
-etherwake - 1.09-4
-ethtool - 4.19-1
-f2fs-tools - 1.12.0-3
-f2fsck - 1.12.0-3
-fdisk - 2.37-2
-ffmpeg-remux - 4.3.3-1
-firewall - 2019-01-02-70f8785b-7
-flock - 2.37-2
-fstools - 2021-08-14-2e3aca29-7
-fuse-utils - 2.9.7-1
-fwtool - 1
-ip-full - 5.11.0-5
-ip6tables - 1.4.21-10
-ip6tables-extra - 1.4.21-10
-ip6tables-mod-nat - 1.4.21-10
-ipip - 1-2
-ipset - 7.3-1
-ipt2socks - 1.1.3-3
-iptables - 1.4.21-10
-iptables-mod-account - 2.11-1
-iptables-mod-chaos - 2.11-1
-iptables-mod-condition - 2.11-1
-iptables-mod-conntrack-extra - 1.4.21-10
-iptables-mod-dhcpmac - 2.11-1
-iptables-mod-extra - 1.4.21-10
-iptables-mod-filter - 1.4.21-10
-iptables-mod-fullconenat - 2019-10-21-0cf3b48f-1
-iptables-mod-hashlimit - 1.4.21-10
-iptables-mod-iface - 2.11-1
-iptables-mod-ipmark - 2.11-1
-iptables-mod-ipopt - 1.4.21-10
-iptables-mod-ipp2p - 2.11-1
-iptables-mod-iprange - 1.4.21-10
-iptables-mod-ipsec - 1.4.21-10
-iptables-mod-ipv4options - 2.11-1
-iptables-mod-nat-extra - 1.4.21-10
-iptables-mod-nflog - 1.4.21-10
-iptables-mod-nfqueue - 1.4.21-10
-iptables-mod-socket - 1.4.21-10
-iptables-mod-tproxy - 1.4.21-10
-ipv6helper - 1.0-2
-iw - 5.9-1
-iwinfo - 2018-12-25-dd508af4
-jdcloud_ax1800_pro-firwame - 1
-jshn - 2020-05-25-66195aee-1
-jsonfilter - 2018-02-04-c7e938d6-1
-kernel - 4.4.60-1-ccc363a0df732e3f121b3ee503387c87
-kmod-8021q - 4.4.60-1
-kmod-ata-ahci - 4.4.60-1
-kmod-ata-core - 4.4.60-1
-kmod-atm - 4.4.60-1
-kmod-block2mtd - 4.4.60-1
-kmod-bonding - 4.4.60-1
-kmod-br-netfilter - 4.4.60-1
-kmod-bridge - 4.4.60-1
-kmod-button-hotplug - 4.4.60-3
-kmod-cfg80211-linux - 4.4.60-1
-kmod-crypto-aead - 4.4.60-1
-kmod-crypto-aes - 4.4.60-1
-kmod-crypto-aes-internal - 4.4.60+1-1
-kmod-crypto-arc4 - 4.4.60-1
-kmod-crypto-authenc - 4.4.60-1
-kmod-crypto-cbc - 4.4.60-1
-kmod-crypto-core - 4.4.60-1
-kmod-crypto-crc32c - 4.4.60-1
-kmod-crypto-ctr - 4.4.60-1
-kmod-crypto-deflate - 4.4.60-1
-kmod-crypto-des - 4.4.60-1
-kmod-crypto-ecb - 4.4.60-1
-kmod-crypto-echainiv - 4.4.60-1
-kmod-crypto-gcm - 4.4.60-1
-kmod-crypto-gf128 - 4.4.60-1
-kmod-crypto-ghash - 4.4.60-1
-kmod-crypto-hash - 4.4.60-1
-kmod-crypto-hmac - 4.4.60-1
-kmod-crypto-hw-padlock - 4.4.60-1
-kmod-crypto-iv - 4.4.60-1
-kmod-crypto-manager - 4.4.60-1
-kmod-crypto-md4 - 4.4.60-1
-kmod-crypto-md5 - 4.4.60-1
-kmod-crypto-null - 4.4.60-1
-kmod-crypto-pcompress - 4.4.60-1
-kmod-crypto-rng - 4.4.60-1
-kmod-crypto-seqiv - 4.4.60-1
-kmod-crypto-sha1 - 4.4.60-1
-kmod-crypto-sha256 - 4.4.60-1
-kmod-crypto-user - 4.4.60-1
-kmod-crypto-wq - 4.4.60-1
-kmod-cryptodev - 4.4.60+1.12-ipq60xx-1
-kmod-dm - 4.4.60-1
-kmod-dnsresolver - 4.4.60-1
-kmod-dummy - 4.4.60-1
-kmod-fs-autofs4 - 4.4.60-1
-kmod-fs-btrfs - 4.4.60-1
-kmod-fs-cifs - 4.4.60-1
-kmod-fs-exfat - 4.4.60+5.19.1-2
-kmod-fs-ext4 - 4.4.60-1
-kmod-fs-f2fs - 4.4.60-1
-kmod-fs-fscache - 4.4.60-1
-kmod-fs-nfs - 4.4.60-1
-kmod-fs-nfs-common - 4.4.60-1
-kmod-fs-nfs-v3 - 4.4.60-1
-kmod-fs-nfs-v4 - 4.4.60-1
-kmod-fs-ntfs3 - 4.4.60+2021-07-05-46d199e7-5
-kmod-fs-squashfs - 4.4.60-1
-kmod-fs-vfat - 4.4.60-1
-kmod-fuse - 4.4.60-1
-kmod-gpio-button-hotplug - 4.4.60-2
-kmod-gpio-dev - 4.4.60-1
-kmod-gre - 4.4.60-1
-kmod-gre6 - 4.4.60-1
-kmod-hid - 4.4.60-1
-kmod-hid-generic - 4.4.60-1
-kmod-hwmon-core - 4.4.60-1
-kmod-hwmon-pwmfan - 4.4.60-1
-kmod-i2c-core - 4.4.60-1
-kmod-ifb - 4.4.60-1
-kmod-ikconfig - 4.4.60-1
-kmod-inet-diag - 4.4.60-1
-kmod-input-core - 4.4.60-1
-kmod-input-evdev - 4.4.60-1
-kmod-ip-vti - 4.4.60-1
-kmod-ip6-tunnel - 4.4.60-1
-kmod-ip6-vti - 4.4.60-1
-kmod-ip6tables - 4.4.60-1
-kmod-ip6tables-extra - 4.4.60-1
-kmod-ipip - 4.4.60-1
-kmod-ipoa - 4.4.60-1
-kmod-ipsec - 4.4.60-1
-kmod-ipsec4 - 4.4.60-1
-kmod-ipsec6 - 4.4.60-1
-kmod-ipt-account - 4.4.60+2.11-1
-kmod-ipt-chaos - 4.4.60+2.11-1
-kmod-ipt-compat-xtables - 4.4.60+2.11-1
-kmod-ipt-condition - 4.4.60+2.11-1
-kmod-ipt-conntrack - 4.4.60-1
-kmod-ipt-conntrack-extra - 4.4.60-1
-kmod-ipt-core - 4.4.60-1
-kmod-ipt-delude - 4.4.60+2.11-1
-kmod-ipt-dhcpmac - 4.4.60+2.11-1
-kmod-ipt-extra - 4.4.60-1
-kmod-ipt-filter - 4.4.60-1
-kmod-ipt-fullconenat - 4.4.60+2019-10-21-0cf3b48f-1
-kmod-ipt-hashlimit - 4.4.60-1
-kmod-ipt-iface - 4.4.60+2.11-1
-kmod-ipt-ipmark - 4.4.60+2.11-1
-kmod-ipt-ipopt - 4.4.60-1
-kmod-ipt-ipp2p - 4.4.60+2.11-1
-kmod-ipt-iprange - 4.4.60-1
-kmod-ipt-ipsec - 4.4.60-1
-kmod-ipt-ipset - 4.4.60-1
-kmod-ipt-ipv4options - 4.4.60+2.11-1
-kmod-ipt-nat - 4.4.60-1
-kmod-ipt-nat-extra - 4.4.60-1
-kmod-ipt-nat6 - 4.4.60-1
-kmod-ipt-nflog - 4.4.60-1
-kmod-ipt-nfqueue - 4.4.60-1
-kmod-ipt-physdev - 4.4.60-1
-kmod-ipt-raw - 4.4.60-1
-kmod-ipt-raw6 - 4.4.60-1
-kmod-ipt-socket - 4.4.60-1
-kmod-ipt-tarpit - 4.4.60+2.11-1
-kmod-ipt-tproxy - 4.4.60-1
-kmod-ipt-u32 - 4.4.60-1
-kmod-ipt-ulog - 4.4.60-1
-kmod-iptunnel - 4.4.60-1
-kmod-iptunnel4 - 4.4.60-1
-kmod-iptunnel6 - 4.4.60-1
-kmod-ipv6 - 4.4.60-1
-kmod-l2tp - 4.4.60-1
-kmod-l2tp-eth - 4.4.60-1
-kmod-l2tp-ip - 4.4.60-1
-kmod-leds-gpio - 4.4.60-1
-kmod-ledtrig-gpio - 4.4.60-1
-kmod-ledtrig-netdev - 4.4.60-1
-kmod-lib-crc-ccitt - 4.4.60-1
-kmod-lib-crc-itu-t - 4.4.60-1
-kmod-lib-crc16 - 4.4.60-1
-kmod-lib-crc32c - 4.4.60-1
-kmod-lib-crc7 - 4.4.60-1
-kmod-lib-lzo - 4.4.60-1
-kmod-lib-raid6 - 4.4.60-1
-kmod-lib-textsearch - 4.4.60-1
-kmod-lib-xor - 4.4.60-1
-kmod-lib-zlib-deflate - 4.4.60-1
-kmod-lib-zlib-inflate - 4.4.60-1
-kmod-libphy - 4.4.60-1
-kmod-llc - 4.4.60-1
-kmod-loop - 4.4.60-1
-kmod-lp - 4.4.60-1
-kmod-macvlan - 4.4.60-1
-kmod-md-mod - 4.4.60-1
-kmod-md-raid0 - 4.4.60-1
-kmod-md-raid1 - 4.4.60-1
-kmod-md-raid10 - 4.4.60-1
-kmod-mhitest_mod - 4.4.60+1-1
-kmod-mii - 4.4.60-1
-kmod-mmc - 4.4.60-1
-kmod-mmc-spi - 4.4.60-1
-kmod-mppe - 4.4.60-1
-kmod-msm-mproc - 4.4.60+1-1
-kmod-nat46 - 4.4.60+6-1
-kmod-nf-conntrack - 4.4.60-1
-kmod-nf-conntrack-netlink - 4.4.60-1
-kmod-nf-conntrack6 - 4.4.60-1
-kmod-nf-ipt - 4.4.60-1
-kmod-nf-ipt6 - 4.4.60-1
-kmod-nf-ipvs - 4.4.60-1
-kmod-nf-nat - 4.4.60-1
-kmod-nf-nat6 - 4.4.60-1
-kmod-nf-nathelper - 4.4.60-1
-kmod-nf-nathelper-extra - 4.4.60-1
-kmod-nf-reject - 4.4.60-1
-kmod-nf-reject6 - 4.4.60-1
-kmod-nf-socket - 4.4.60-1
-kmod-nf-tproxy - 4.4.60-1
-kmod-nfnetlink - 4.4.60-1
-kmod-nfnetlink-log - 4.4.60-1
-kmod-nfnetlink-queue - 4.4.60-1
-kmod-nft-bridge - 4.4.60-1
-kmod-nft-core - 4.4.60-1
-kmod-nft-nat - 4.4.60-1
-kmod-nft-nat6 - 4.4.60-1
-kmod-nft-netdev - 4.4.60-1
-kmod-nls-base - 4.4.60-1
-kmod-nls-cp437 - 4.4.60-1
-kmod-nls-iso8859-1 - 4.4.60-1
-kmod-nls-utf8 - 4.4.60-1
-kmod-nss-ifb - 4.4.60-1
-kmod-ppp - 4.4.60-1
-kmod-ppp-synctty - 4.4.60-1
-kmod-pppoa - 4.4.60-1
-kmod-pppoe - 4.4.60-1
-kmod-pppol2tp - 4.4.60-1
-kmod-pppox - 4.4.60-1
-kmod-pptp - 4.4.60-1
-kmod-qca-hyfi-bridge - 4.4.60+11.5-1
-kmod-qca-mcs - 4.4.60+11.5-1
-kmod-qca-nss-cfi-cryptoapi - 4.4.60+11.5-2
-kmod-qca-nss-crypto - 4.4.60+11.5-1
-kmod-qca-nss-dp - 4.4.60+11.5-1
-kmod-qca-nss-drv - 4.4.60+11.5-2
-kmod-qca-nss-drv-bridge-mgr - 4.4.60+11.5-2
-kmod-qca-nss-drv-gre - 4.4.60+11.5-2
-kmod-qca-nss-drv-igs - 4.4.60+11.5-2
-kmod-qca-nss-drv-lag-mgr - 4.4.60+11.5-2
-kmod-qca-nss-drv-map-t - 4.4.60+11.5-2
-kmod-qca-nss-drv-match - 4.4.60+11.5-2
-kmod-qca-nss-drv-mirror - 4.4.60+11.5-2
-kmod-qca-nss-drv-ovpn-link - 4.4.60+11.5-2
-kmod-qca-nss-drv-ovpn-mgr - 4.4.60+11.5-2
-kmod-qca-nss-drv-pppoe - 4.4.60+11.5-2
-kmod-qca-nss-drv-pptp - 4.4.60+11.5-2
-kmod-qca-nss-drv-qdisc - 4.4.60+11.5-2
-kmod-qca-nss-drv-tun6rd - 4.4.60+11.5-2
-kmod-qca-nss-drv-tunipip6 - 4.4.60+11.5-2
-kmod-qca-nss-drv-vlan-mgr - 4.4.60+11.5-2
-kmod-qca-nss-ecm-premium - 4.4.60+11.5-6
-kmod-qca-nss-macsec - 4.4.60+11.5-1
-kmod-qca-ssdk-nohnat - 4.4.60+11.5-3
-kmod-qca-wifi-unified-profile - 4.4.60+11.5-2
-kmod-qmi_sample_client - 4.4.60+1-1
-kmod-qseecom - 4.4.60+1-1
-kmod-random-core - 4.4.60-1
-kmod-regmap - 4.4.60-1
-kmod-sched - 4.4.60-1
-kmod-sched-cake - 4.4.60+2019-03-12-057c7388-1
-kmod-sched-connmark - 4.4.60-1
-kmod-sched-core - 4.4.60-1
-kmod-scsi-cdrom - 4.4.60-1
-kmod-scsi-core - 4.4.60-1
-kmod-scsi-generic - 4.4.60-1
-kmod-scsi-tape - 4.4.60-1
-kmod-sctp - 4.4.60-1
-kmod-shortcut-fe - 4.4.60+11.5-1
-kmod-shortcut-fe-cm - 4.4.60+11.5-1
-kmod-shortcut-fe-drv - 4.4.60+11.5-1
-kmod-sit - 4.4.60-1
-kmod-slhc - 4.4.60-1
-kmod-slip - 4.4.60-1
-kmod-sound-core - 4.4.60-1
-kmod-spi-bitbang - 4.4.60-1
-kmod-spi-gpio - 4.4.60-1
-kmod-stp - 4.4.60-1
-kmod-swconfig - 4.4.60-1
-kmod-tun - 4.4.60-1
-kmod-udptunnel4 - 4.4.60-1
-kmod-udptunnel6 - 4.4.60-1
-kmod-usb-audio - 4.4.60-1
-kmod-usb-core - 4.4.60-1
-kmod-usb-dwc2 - 4.4.60-1
-kmod-usb-dwc3 - 4.4.60-1
-kmod-usb-dwc3-qcom - 4.4.60-1
-kmod-usb-hid - 4.4.60-1
-kmod-usb-net - 4.4.60-1
-kmod-usb-net-asix-ax88179 - 4.4.60-1
-kmod-usb-net-cdc-ether - 4.4.60-1
-kmod-usb-net-ipheth - 4.4.60-1
-kmod-usb-net-qmi-wwan - 4.4.60-1
-kmod-usb-net-rndis - 4.4.60-1
-kmod-usb-net-rtl8152-vendor - 4.4.60+2.16.3-4-ipq60xx-3
-kmod-usb-ohci - 4.4.60-1
-kmod-usb-ohci-pci - 4.4.60-1
-kmod-usb-phy-ipq807x - 4.4.60+1-1
-kmod-usb-printer - 4.4.60-1
-kmod-usb-storage - 4.4.60-1
-kmod-usb-storage-extras - 4.4.60-1
-kmod-usb-storage-uas - 4.4.60-1
-kmod-usb-uhci - 4.4.60-1
-kmod-usb-wdm - 4.4.60-1
-kmod-usb2 - 4.4.60-1
-kmod-usb2-pci - 4.4.60-1
-kmod-usb3 - 4.4.60-1
-kmod-veth - 4.4.60-1
-kmod-vxlan - 4.4.60-1
-kmod-wireguard - 4.4.60+1.0.20210606-2
-lacpd - 11.5-1
-lede-keyring - 2017-01-20-a50b7529-1
-libaio - 0.3.112-1
-libatomic1 - 7.5.0-2
-libattr - 20170915-1
-libblkid1 - 2.37-2
-libblobmsg-json - 2020-05-25-66195aee-1
-libbpf0 - 5.10.10-2
-libbz2-1.0 - 1.0.8-1
-libc - 1.1.24-2
-libcap - 2.43-1
-libcap-bin - 2.43-1
-libcares - 1.14.0-1
-libcomerr0 - 1.46.5-1
-libcurl4 - 8.0.1-1
-libdb47 - 4.7.25.4.NC-5
-libdevmapper - 2.02.177-1
-libelf1 - 0.180-1
-libev - 4.22-1
-libevent2-7 - 2.1.12-1
-libevent2-core7 - 2.1.12-1
-libevent2-pthreads7 - 2.1.12-1
-libext2fs2 - 1.46.5-1
-libf2fs6 - 1.12.0-3
-libfdisk1 - 2.37-2
-libfuse - 2.9.7-1
-libgcc1 - 7.5.0-2
-libgmp - 6.1.2-1
-libhyficommon - 11.5-1
-libiconv-full - 1.11.1-3
-libimobiledevice - 1.2.1-2
-libintl-full8 - 0.19.8.1-2
-libip4tc - 1.4.21-10
-libip6tc - 1.4.21-10
-libipset13 - 7.3-1
-libiw - 29-5
-libiwinfo-lua - 2018-12-25-dd508af4
-libiwinfodd508af4 - 2018-12-25-dd508af4
-libjson-c5 - 0.15-1
-libjson-script - 2020-05-25-66195aee-1
-libltdl7 - 2.4.6-2
-liblua - 5.1.5-1
-liblzma - 5.2.4-1
-liblzo2 - 2.10-4
-libmbedtls12 - 2.28.0-7
-libminiupnpc - 2.0.20170509-1
-libmnl0 - 1.0.4-1
-libmount1 - 2.37-2
-libnatpmp - 20150609-1
-libncurses6 - 6.1-5
-libnetfilter-conntrack - 1.0.6-1
-libnetfilter-cthelper - 1.0.0-1
-libnetfilter-cttimeout - 1.0.0-1
-libnetfilter-queue1 - 1.0.5-4
-libnettle - 3.3-1
-libnfnetlink - 1.0.1-1
-libnftnl12 - 1.1.7-2
-libnl-core200 - 3.2.21-2
-libnl-genl200 - 3.2.21-2
-libnl-nf200 - 3.2.21-2
-libnl-route200 - 3.2.21-2
-libnl-tiny2022-05-17 - 2020-08-05-c291088f-2
-libnl200 - 3.2.21-2
-libopenssl-conf - 1.1.1o-1
-libopenssl1.1 - 1.1.1o-1
-libpcre - 8.41-2
-libpcre2-16 - 10.30-1
-libplist - 2.0.0-3
-libpopt0 - 1.16-2
-libpthread - 1.1.24-2
-libreadline8 - 8.0-1
-libroxml - 2.3.0-2
-librt - 1.1.24-2
-libruby3.1 - 3.1.3-1
-libsmartcols1 - 2.37-2
-libsodium - 1.0.16-1
-libss2 - 1.46.5-1
-libstdcpp6 - 7.5.0-2
-libsysfs - 2.1.0-2
-libtirpc - 1.2.6-2
-libubox-lua - 2020-05-25-66195aee-1
-libubox20191228 - 2020-05-25-66195aee-1
-libubus-lua - 2022-02-21-b32a0e17-1
-libubus20210603 - 2022-02-21-b32a0e17-1
-libuci - 2018-08-11-1
-libuci-lua - 2018-08-11-1
-libuclient20201210 - 2021-05-14-6a6011df-1
-libudns - 0.4-1
-libusb-1.0-0 - 1.0.24-2
-libusb-compat - 0.1.4-2
-libusbmuxd - 1.1.0-2
-libustream-openssl20201210 - 2022-01-16-868fd881-1
-libuuid1 - 2.37-2
-libuv1 - 1.41.1-4
-libwebsockets-full - 2.4.1-2
-libwifisoncfg - 11.5-1
-libwpa2 - 11.5-1
-libwrap - 7.6-1
-libxml2 - 2.9.9-1
-libxtables - 1.4.21-10
-libyaml - 0.2.5-1
-linkease - 1.5.9-aarch64-3
-linkmount - 1.0.3-aarch64-2
-linux-atm - 2.5.2-5
-logd - 2018-12-18-876c7f5b-1
-losetup - 2.37-2
-lsblk - 2.37-2
-lua - 5.1.5-1
-lua-neturl - 1.1-1-3
-luci - git-24.140.42554-88ca66e-1
-luci-app-accesscontrol - 1-11
-luci-app-adblock - git-24.140.42554-88ca66e-1
-luci-app-arpbind - 1-2
-luci-app-autoreboot - 1.0-8
-luci-app-cpufreq - 1-7
-luci-app-ddns - 2.4.9-8
-luci-app-ddnsto - 3.0.4-0
-luci-app-diskman - v0.2.11-2
-luci-app-filetransfer - 1-2
-luci-app-firewall - git-24.140.42554-88ca66e-1
-luci-app-ipsec-server - git-24.140.42554-88ca66e-1
-luci-app-linkease - 2.1.12-2
-luci-app-msd_lite - 1-11
-luci-app-openclash - 0.46.001-beta
-luci-app-openvpn-server - 2.0-19
-luci-app-qbittorrent-simple - 1.0.0-3
-luci-app-quickstart - 0.8.13-1
-luci-app-ramfree - 1.0-1
-luci-app-samba - git-24.140.42554-88ca66e-1
-luci-app-ssr-plus - 188-3
-luci-app-store - 0.1.14-3
-luci-app-ttyd - 1.0-3
-luci-app-turboacc - git-24.140.42554-88ca66e-9
-luci-app-upnp - git-24.140.42554-88ca66e-1
-luci-app-usb-printer - 1.0-2
-luci-app-vlmcsd - 1.0-5
-luci-app-vsftpd - 1.0-3
-luci-app-wireguard - git-24.140.42554-88ca66e-1
-luci-app-wolplus - 1.0.2-1
-luci-app-xupnpd - 1-9
-luci-app-zerotier - 1.0-20
-luci-base - git-24.140.42554-88ca66e-1
-luci-compat - git-24.140.42554-88ca66e-1
-luci-i18n-accesscontrol-zh-cn - 1-11
-luci-i18n-adblock-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-arpbind-zh-cn - 1-2
-luci-i18n-autoreboot-zh-cn - 1.0-8
-luci-i18n-base-en - git-24.140.42554-88ca66e-1
-luci-i18n-base-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-bonding-en - git-24.140.42554-88ca66e-1
-luci-i18n-cpufreq-zh-cn - 1-7
-luci-i18n-ddns-en - 2.4.9-8
-luci-i18n-ddns-zh-cn - 2.4.9-8
-luci-i18n-ddnsto-zh-cn - 3.0.4-0
-luci-i18n-diskman-zh-cn - v0.2.11-2
-luci-i18n-filetransfer-zh-cn - 1-2
-luci-i18n-firewall-en - git-24.140.42554-88ca66e-1
-luci-i18n-firewall-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-ipsec-server-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-linkease-zh-cn - 2.1.12-2
-luci-i18n-msd_lite-zh-cn - 1-11
-luci-i18n-openvpn-server-zh-cn - 2.0-19
-luci-i18n-qbittorrent-simple-zh-cn - 1.0.0-3
-luci-i18n-quickstart-zh-cn - 0.8.13-1
-luci-i18n-ramfree-zh-cn - 1.0-1
-luci-i18n-samba-en - git-24.140.42554-88ca66e-1
-luci-i18n-samba-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-ssr-plus-zh-cn - 188-3
-luci-i18n-ttyd-zh-cn - 1.0-3
-luci-i18n-turboacc-zh-cn - git-24.140.42554-88ca66e-9
-luci-i18n-upnp-en - git-24.140.42554-88ca66e-1
-luci-i18n-upnp-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-usb-printer-zh-cn - 1.0-2
-luci-i18n-vlmcsd-zh-cn - 1.0-5
-luci-i18n-vsftpd-zh-cn - 1.0-3
-luci-i18n-wireguard-zh-cn - git-24.140.42554-88ca66e-1
-luci-i18n-wolplus-zh-cn - 1.0.2-1
-luci-i18n-xupnpd-zh-cn - 1-9
-luci-i18n-zerotier-zh-cn - 1.0-20
-luci-lib-docker - v0.3.4-1
-luci-lib-fs - 1.0-1
-luci-lib-ip - git-24.140.42554-88ca66e-1
-luci-lib-ipkg - git-24.140.42554-88ca66e-1
-luci-lib-jsonc - git-24.140.42554-88ca66e-1
-luci-lib-nixio - git-24.140.42554-88ca66e-1
-luci-lib-taskd - 1.0.18
-luci-lib-xterm - 4.18.0
-luci-mod-admin-full - git-24.140.42554-88ca66e-1
-luci-proto-bonding - git-24.140.42554-88ca66e-1
-luci-proto-ipv6 - git-24.140.42554-88ca66e-1
-luci-proto-ppp - git-24.140.42554-88ca66e-1
-luci-proto-wireguard - git-24.140.42554-88ca66e-1
-luci-theme-argon - 1.8.3-20230710
-luci-theme-bootstrap - git-24.140.42554-88ca66e-1
-map - 4-7
-map-t - 6
-mdadm - 4.1-2
-microsocks - 1.0.2-2
-miniupnpd - 2.0.20170421-3
-mkf2fs - 1.12.0-3
-mosdns - 5.3.1-1
-mount-utils - 2.37-2
-msd_lite - 1.11-1
-mtd - 23.1
-nand-utils - 2.1.1-1
-netifd - 2021-01-09-753c351b-1
-nfs-utils - 2.3.3-3
-nftables - 0.9.0-2
-ntfs3-mount - 6
-odhcp6c - 2019-01-11-e199804b-16
-odhcpd-ipv6only - 1.11-1
-openssl-util - 1.1.1o-1
-openvpn-easy-rsa - 3.0.4-1
-openvpn-openssl - 2.4.6-3
-opkg - 2021-01-31-c5dccea9-1
-p910nd - 0.97-5
-parted - 3.3-1
-pdnsd-alt - 1.2.9b-par-3
-ppp - 2.4.7.git-2019-05-25-3
-ppp-mod-passwordfd - 2.4.7.git-2019-05-25-3
-ppp-mod-pppoa - 2.4.7.git-2019-05-25-3
-ppp-mod-pppoe - 2.4.7.git-2019-05-25-3
-ppp-mod-pppol2tp - 2.4.7.git-2019-05-25-3
-ppp-mod-pptp - 2.4.7.git-2019-05-25-3
-ppp-mod-radius - 2.4.7.git-2019-05-25-3
-pppdump - 2.4.7.git-2019-05-25-3
-pppoe-discovery - 2.4.7.git-2019-05-25-3
-pppstats - 2.4.7.git-2019-05-25-3
-procd - 2019-05-30-ade00ca5-6
-proto-bonding - 2020-03-30-1
-qbittorrent - 4.4.2-1
-qca-acfg - 11.5-1
-qca-cfg80211 - 11.5-1
-qca-cfg80211tool - 11.5-1
-qca-diag - 11.5-1
-qca-hostap - 11.5-1
-qca-hostapd-cli - 11.5-1
-qca-iface-mgr-10.4 - 11.5-1
-qca-nss-fw-cp-retail - 7-1
-qca-nss-fw-eip-cp - 2.8.1-1
-qca-qrtr - 11.5-1
-qca-son-cli - 11.5-1
-qca-son-mem-debug - 11.5-1
-qca-spectral - 11.5-1
-qca-ssdk-shell - 11.5-1
-qca-wifi-cyp-fw-hw1-11.0-asic - IPQ6018-WLAN.HK.2.5.r4-00683-QCAHKSWPL_SILICONZ-1-1
-qca-wifi-scripts - 1
-qca-wifison-ext-lib - 11.5-1
-qca-wpa-cli - 11.5-1
-qca-wpa-supplicant - 11.5-1
-qcmbr-10.4-netlink - 11.5-1
-qt5-core - 5.15.3-1
-qt5-network - 5.15.3-1
-qt5-sql - 5.15.3-1
-qt5-xml - 5.15.3-1
-quickstart - 0.8.14-1
-rblibtorrent - 1.2.16-1
-relayd - 2020-04-25-f4d759be-1
-resolveip - 2
-rpcd - 2018-11-28-3aa81d0d-1
-rpcd-mod-rrdns - 20170710
-rstp - 2011-10-11-434d24bae108dbb21461a13a4abcf014afa8b029
-ruby - 3.1.3-1
-ruby-bigdecimal - 3.1.3-1
-ruby-date - 3.1.3-1
-ruby-digest - 3.1.3-1
-ruby-enc - 3.1.3-1
-ruby-forwardable - 3.1.3-1
-ruby-pstore - 3.1.3-1
-ruby-psych - 3.1.3-1
-ruby-stringio - 3.1.3-1
-ruby-strscan - 3.1.3-1
-ruby-yaml - 3.1.3-1
-samba36-server - 4.0.26-8
-script-utils - 2.37-2
-shadow - 4.2.1-8
-shadow-chage - 4.2.1-8
-shadow-chfn - 4.2.1-8
-shadow-chpasswd - 4.2.1-8
-shadow-chsh - 4.2.1-8
-shadow-common - 4.2.1-8
-shadow-expiry - 4.2.1-8
-shadow-faillog - 4.2.1-8
-shadow-gpasswd - 4.2.1-8
-shadow-groupadd - 4.2.1-8
-shadow-groupdel - 4.2.1-8
-shadow-groupmems - 4.2.1-8
-shadow-groupmod - 4.2.1-8
-shadow-groups - 4.2.1-8
-shadow-lastlog - 4.2.1-8
-shadow-login - 4.2.1-8
-shadow-newgidmap - 4.2.1-8
-shadow-newgrp - 4.2.1-8
-shadow-newuidmap - 4.2.1-8
-shadow-nologin - 4.2.1-8
-shadow-passwd - 4.2.1-8
-shadow-su - 4.2.1-8
-shadow-useradd - 4.2.1-8
-shadow-userdel - 4.2.1-8
-shadow-usermod - 4.2.1-8
-shadow-utils - 4.2.1-8
-shadow-vipw - 4.2.1-8
-shadowsocks-rust-sslocal - 1.17.1-1
-shadowsocksr-libev-ssr-check - 2.5.6-9
-shadowsocksr-libev-ssr-local - 2.5.6-9
-shadowsocksr-libev-ssr-redir - 2.5.6-9
-shadowsocksr-libev-ssr-server - 2.5.6-9
-shellsync - 0.2-1
-simple-obfs-client - 0.0.5-1
-smartd - 6.6-1
-smartmontools - 6.6-1
-squashfs4 - 4.2
-strongswan - 5.6.3-3
-strongswan-charon - 5.6.3-3
-strongswan-ipsec - 5.6.3-3
-strongswan-minimal - 5.6.3-3
-strongswan-mod-aes - 5.6.3-3
-strongswan-mod-gmp - 5.6.3-3
-strongswan-mod-hmac - 5.6.3-3
-strongswan-mod-kernel-libipsec - 5.6.3-3
-strongswan-mod-kernel-netlink - 5.6.3-3
-strongswan-mod-nonce - 5.6.3-3
-strongswan-mod-openssl - 5.6.3-3
-strongswan-mod-pubkey - 5.6.3-3
-strongswan-mod-random - 5.6.3-3
-strongswan-mod-sha1 - 5.6.3-3
-strongswan-mod-socket-default - 5.6.3-3
-strongswan-mod-stroke - 5.6.3-3
-strongswan-mod-updown - 5.6.3-3
-strongswan-mod-x509 - 5.6.3-3
-strongswan-mod-xauth-generic - 5.6.3-3
-strongswan-mod-xcbc - 5.6.3-3
-swap-utils - 2.37-2
-swconfig - 12
-sysfsutils - 2.1.0-2
-tar - 1.32-1
-taskd - 1.0.3-1
-tcping - 0.3-1
-terminfo - 6.1-5
-tini - 0.19.0-2
-ttyd - 1.6.3-3
-ubi-utils - 2.1.1-1
-uboot-envtools - 2020.04-1
-ubox - 2018-12-18-876c7f5b-1
-ubus - 2022-02-21-b32a0e17-1
-ubusd - 2022-02-21-b32a0e17-1
-uci - 2018-08-11-1
-uclibcxx - 0.2.5-3
-uclient-fetch - 2021-05-14-6a6011df-1
-uhttpd - 2019-12-22-5f9ae573-1
-uhttpd-mod-ubus - 2019-12-22-5f9ae573-1
-unzip - 6.0-6
-usb-modeswitch - 2017-12-19-f40f84c2-2
-usbmuxd - 1.1.1-4
-usbreset - 5
-usbutils - 007-10
-usign - 2015-07-04-ef641914-1
-uuidd - 2.37-2
-uuidgen - 2.37-2
-vlmcsd - svn1113-3
-vsftpd-alt - 3.0.5-1
-vti - 1-1
-vtiv4 - 1-1
-vtiv6 - 1-1
-vxlan - 2
-wan-discovery - 1.1-1
-wget-ssl - 1.21.1-3
-wireguard - 1.0.20210606-2
-wireguard-tools - 1.0.20210914-2
-wireless-regdb - 2020.04.29-2
-wireless-tools - 29-5
-wsdd2 - 2021-10-22-9831daf2-4
-xl2tpd - 1.3.15-2
-xray-core - 1.8.11-1
-xupnpd - 2018-11-20-1
-xz - 5.2.4-1
-xz-utils - 5.2.4-1
-zerotier - 1.12.2-1
-zlib - 1.2.11-1
+6in4 
+6rd 
+6to4 
+adblock 
+alsa-lib 
+alsa-utils 
+autocore-arm 
+automount 
+autosamba 
+badblocks 
+base-files 
+bash 
+blkid 
+block-mount 
+blockd 
+boost 
+boost-chrono 
+boost-date_time 
+boost-program_options 
+boost-random 
+boost-system 
+busybox 
+bzip2 
+ca-bundle 
+ca-certificates 
+cfdisk 
+cgroupfs-mount 
+chat 
+chinadns-ng 
+clash 
+conntrack 
+conntrackd 
+coremark 
+coreutils 
+coreutils-base64 
+coreutils-nohup 
+coreutils-stat 
+coreutils-stty 
+curl 
+ddns-scripts 
+ddns-scripts_aliyun 
+ddns-scripts_dnspod 
+ddnsto 
+default-settings 
+dns2socks 
+dns2tcp 
+dnsmasq-full 
+dropbear 
+e2fsprogs 
+etherwake 
+ethtool 
+f2fs-tools 
+f2fsck 
+fdisk 
+ffmpeg-remux 
+firewall 
+flock 
+fstools 
+fuse-utils 
+fwtool 
+ip-full 
+ip6tables 
+ip6tables-extra 
+ip6tables-mod-nat 
+ipip 
+ipset 
+ipt2socks 
+iptables 
+iptables-mod-account 
+iptables-mod-chaos 
+iptables-mod-condition 
+iptables-mod-conntrack-extra 
+iptables-mod-dhcpmac 
+iptables-mod-extra 
+iptables-mod-filter 
+iptables-mod-fullconenat 
+iptables-mod-hashlimit 
+iptables-mod-iface 
+iptables-mod-ipmark 
+iptables-mod-ipopt 
+iptables-mod-ipp2p 
+iptables-mod-iprange 
+iptables-mod-ipsec 
+iptables-mod-ipv4options 
+iptables-mod-nat-extra 
+iptables-mod-nflog 
+iptables-mod-nfqueue 
+iptables-mod-socket 
+iptables-mod-tproxy 
+ipv6helper 
+iw 
+iwinfo 
+jdcloud_ax1800_pro-firwame 
+jshn 
+jsonfilter 
+kernel 
+kmod-8021q 
+kmod-ata-ahci 
+kmod-ata-core 
+kmod-atm 
+kmod-block2mtd 
+kmod-bonding 
+kmod-br-netfilter 
+kmod-bridge 
+kmod-button-hotplug 
+kmod-cfg80211-linux 
+kmod-crypto-aead 
+kmod-crypto-aes 
+kmod-crypto-aes-internal 
+kmod-crypto-arc4 
+kmod-crypto-authenc 
+kmod-crypto-cbc 
+kmod-crypto-core 
+kmod-crypto-crc32c 
+kmod-crypto-ctr 
+kmod-crypto-deflate 
+kmod-crypto-des 
+kmod-crypto-ecb 
+kmod-crypto-echainiv 
+kmod-crypto-gcm 
+kmod-crypto-gf128 
+kmod-crypto-ghash 
+kmod-crypto-hash 
+kmod-crypto-hmac 
+kmod-crypto-hw-padlock 
+kmod-crypto-iv 
+kmod-crypto-manager 
+kmod-crypto-md4 
+kmod-crypto-md5 
+kmod-crypto-null 
+kmod-crypto-pcompress 
+kmod-crypto-rng 
+kmod-crypto-seqiv 
+kmod-crypto-sha1 
+kmod-crypto-sha256 
+kmod-crypto-user 
+kmod-crypto-wq 
+kmod-cryptodev 
+kmod-dm 
+kmod-dnsresolver 
+kmod-dummy 
+kmod-fs-autofs4 
+kmod-fs-btrfs 
+kmod-fs-cifs 
+kmod-fs-exfat 
+kmod-fs-ext4 
+kmod-fs-f2fs 
+kmod-fs-fscache 
+kmod-fs-nfs 
+kmod-fs-nfs-common 
+kmod-fs-nfs-v3 
+kmod-fs-nfs-v4 
+kmod-fs-ntfs3 
+kmod-fs-squashfs 
+kmod-fs-vfat 
+kmod-fuse 
+kmod-gpio-button-hotplug 
+kmod-gpio-dev 
+kmod-gre 
+kmod-gre6 
+kmod-hid 
+kmod-hid-generic 
+kmod-hwmon-core 
+kmod-hwmon-pwmfan 
+kmod-i2c-core 
+kmod-ifb 
+kmod-ikconfig 
+kmod-inet-diag 
+kmod-input-core 
+kmod-input-evdev 
+kmod-ip-vti 
+kmod-ip6-tunnel 
+kmod-ip6-vti 
+kmod-ip6tables 
+kmod-ip6tables-extra 
+kmod-ipip 
+kmod-ipoa 
+kmod-ipsec 
+kmod-ipsec4 
+kmod-ipsec6 
+kmod-ipt-account 
+kmod-ipt-chaos 
+kmod-ipt-compat-xtables 
+kmod-ipt-condition 
+kmod-ipt-conntrack 
+kmod-ipt-conntrack-extra 
+kmod-ipt-core 
+kmod-ipt-delude 
+kmod-ipt-dhcpmac 
+kmod-ipt-extra 
+kmod-ipt-filter 
+kmod-ipt-fullconenat 
+kmod-ipt-hashlimit 
+kmod-ipt-iface 
+kmod-ipt-ipmark 
+kmod-ipt-ipopt 
+kmod-ipt-ipp2p 
+kmod-ipt-iprange 
+kmod-ipt-ipsec 
+kmod-ipt-ipset 
+kmod-ipt-ipv4options 
+kmod-ipt-nat 
+kmod-ipt-nat-extra 
+kmod-ipt-nat6 
+kmod-ipt-nflog 
+kmod-ipt-nfqueue 
+kmod-ipt-physdev 
+kmod-ipt-raw 
+kmod-ipt-raw6 
+kmod-ipt-socket 
+kmod-ipt-tarpit 
+kmod-ipt-tproxy 
+kmod-ipt-u32 
+kmod-ipt-ulog 
+kmod-iptunnel 
+kmod-iptunnel4 
+kmod-iptunnel6 
+kmod-ipv6 
+kmod-l2tp 
+kmod-l2tp-eth 
+kmod-l2tp-ip 
+kmod-leds-gpio 
+kmod-ledtrig-gpio 
+kmod-ledtrig-netdev 
+kmod-lib-crc-ccitt 
+kmod-lib-crc-itu-t 
+kmod-lib-crc16 
+kmod-lib-crc32c 
+kmod-lib-crc7 
+kmod-lib-lzo 
+kmod-lib-raid6 
+kmod-lib-textsearch 
+kmod-lib-xor 
+kmod-lib-zlib-deflate 
+kmod-lib-zlib-inflate 
+kmod-libphy 
+kmod-llc 
+kmod-loop 
+kmod-lp 
+kmod-macvlan 
+kmod-md-mod 
+kmod-md-raid0 
+kmod-md-raid1 
+kmod-md-raid10 
+kmod-mhitest_mod 
+kmod-mii 
+kmod-mmc 
+kmod-mmc-spi 
+kmod-mppe 
+kmod-msm-mproc 
+kmod-nat46 
+kmod-nf-conntrack 
+kmod-nf-conntrack-netlink 
+kmod-nf-conntrack6 
+kmod-nf-ipt 
+kmod-nf-ipt6 
+kmod-nf-ipvs 
+kmod-nf-nat 
+kmod-nf-nat6 
+kmod-nf-nathelper 
+kmod-nf-nathelper-extra 
+kmod-nf-reject 
+kmod-nf-reject6 
+kmod-nf-socket 
+kmod-nf-tproxy 
+kmod-nfnetlink 
+kmod-nfnetlink-log 
+kmod-nfnetlink-queue 
+kmod-nft-bridge 
+kmod-nft-core 
+kmod-nft-nat 
+kmod-nft-nat6 
+kmod-nft-netdev 
+kmod-nls-base 
+kmod-nls-cp437 
+kmod-nls-iso8859-1 
+kmod-nls-utf8 
+kmod-nss-ifb 
+kmod-ppp 
+kmod-ppp-synctty 
+kmod-pppoa 
+kmod-pppoe 
+kmod-pppol2tp 
+kmod-pppox 
+kmod-pptp 
+kmod-qca-hyfi-bridge 
+kmod-qca-mcs 
+kmod-qca-nss-cfi-cryptoapi 
+kmod-qca-nss-crypto 
+kmod-qca-nss-dp 
+kmod-qca-nss-drv 
+kmod-qca-nss-drv-bridge-mgr 
+kmod-qca-nss-drv-gre 
+kmod-qca-nss-drv-igs 
+kmod-qca-nss-drv-lag-mgr 
+kmod-qca-nss-drv-map-t 
+kmod-qca-nss-drv-match 
+kmod-qca-nss-drv-mirror 
+kmod-qca-nss-drv-ovpn-link 
+kmod-qca-nss-drv-ovpn-mgr 
+kmod-qca-nss-drv-pppoe 
+kmod-qca-nss-drv-pptp 
+kmod-qca-nss-drv-qdisc 
+kmod-qca-nss-drv-tun6rd 
+kmod-qca-nss-drv-tunipip6 
+kmod-qca-nss-drv-vlan-mgr 
+kmod-qca-nss-ecm-premium 
+kmod-qca-nss-macsec 
+kmod-qca-ssdk-nohnat 
+kmod-qca-wifi-unified-profile 
+kmod-qmi_sample_client 
+kmod-qseecom 
+kmod-random-core 
+kmod-regmap 
+kmod-sched 
+kmod-sched-cake 
+kmod-sched-connmark 
+kmod-sched-core 
+kmod-scsi-cdrom 
+kmod-scsi-core 
+kmod-scsi-generic 
+kmod-scsi-tape 
+kmod-sctp 
+kmod-shortcut-fe 
+kmod-shortcut-fe-cm 
+kmod-shortcut-fe-drv 
+kmod-sit 
+kmod-slhc 
+kmod-slip 
+kmod-sound-core 
+kmod-spi-bitbang 
+kmod-spi-gpio 
+kmod-stp 
+kmod-swconfig 
+kmod-tun 
+kmod-udptunnel4 
+kmod-udptunnel6 
+kmod-usb-audio 
+kmod-usb-core 
+kmod-usb-dwc2 
+kmod-usb-dwc3 
+kmod-usb-dwc3-qcom 
+kmod-usb-hid 
+kmod-usb-net 
+kmod-usb-net-asix-ax88179 
+kmod-usb-net-cdc-ether 
+kmod-usb-net-ipheth 
+kmod-usb-net-qmi-wwan 
+kmod-usb-net-rndis 
+kmod-usb-net-rtl8152-vendor 
+kmod-usb-ohci 
+kmod-usb-ohci-pci 
+kmod-usb-phy-ipq807x 
+kmod-usb-printer 
+kmod-usb-storage 
+kmod-usb-storage-extras 
+kmod-usb-storage-uas 
+kmod-usb-uhci 
+kmod-usb-wdm 
+kmod-usb2 
+kmod-usb2-pci 
+kmod-usb3 
+kmod-veth 
+kmod-vxlan 
+kmod-wireguard 
+lacpd 
+lede-keyring 
+libaio 
+libatomic1 
+libattr 
+libblkid1 
+libblobmsg-json 
+libbpf0 
+libbz2-1.0 
+libc 
+libcap 
+libcap-bin 
+libcares 
+libcomerr0 
+libcurl4 
+libdb47 
+libdevmapper 
+libelf1 
+libev 
+libevent2-7 
+libevent2-core7 
+libevent2-pthreads7 
+libext2fs2 
+libf2fs6 
+libfdisk1 
+libfuse 
+libgcc1 
+libgmp 
+libhyficommon 
+libiconv-full 
+libimobiledevice 
+libintl-full8 
+libip4tc 
+libip6tc 
+libipset13 
+libiw 
+libiwinfo-lua 
+libiwinfodd508af4 
+libjson-c5 
+libjson-script 
+libltdl7 
+liblua 
+liblzma 
+liblzo2 
+libmbedtls12 
+libminiupnpc 
+libmnl0 
+libmount1 
+libnatpmp 
+libncurses6 
+libnetfilter-conntrack 
+libnetfilter-cthelper 
+libnetfilter-cttimeout 
+libnetfilter-queue1 
+libnettle 
+libnfnetlink 
+libnftnl12 
+libnl-core200 
+libnl-genl200 
+libnl-nf200 
+libnl-route200 
+libnl-tiny2022-05-17 
+libnl200 
+libopenssl-conf 
+libopenssl1.1 
+libpcre 
+libpcre2-16 
+libplist 
+libpopt0 
+libpthread 
+libreadline8 
+libroxml 
+librt 
+libruby3.1 
+libsmartcols1 
+libsodium 
+libss2 
+libstdcpp6 
+libsysfs 
+libtirpc 
+libubox-lua 
+libubox20191228 
+libubus-lua 
+libubus20210603 
+libuci 
+libuci-lua 
+libuclient20201210 
+libudns 
+libusb-1.0-0 
+libusb-compat 
+libusbmuxd 
+libustream-openssl20201210 
+libuuid1 
+libuv1 
+libwebsockets-full 
+libwifisoncfg 
+libwpa2 
+libwrap 
+libxml2 
+libxtables 
+libyaml 
+linkease 
+linkmount 
+linux-atm 
+logd 
+losetup 
+lsblk 
+lua 
+lua-neturl 
+luci 
+luci-app-accesscontrol 
+luci-app-adblock 
+luci-app-arpbind 
+luci-app-autoreboot 
+luci-app-cpufreq 
+luci-app-ddns 
+luci-app-ddnsto 
+luci-app-diskman 
+luci-app-filetransfer 
+luci-app-firewall 
+luci-app-ipsec-server 
+luci-app-linkease 
+luci-app-msd_lite 
+luci-app-openclash 
+luci-app-openvpn-server 
+luci-app-qbittorrent-simple 
+luci-app-quickstart 
+luci-app-ramfree 
+luci-app-samba 
+luci-app-ssr-plus 
+luci-app-store 
+luci-app-ttyd 
+luci-app-turboacc 
+luci-app-upnp 
+luci-app-usb-printer 
+luci-app-vlmcsd 
+luci-app-vsftpd 
+luci-app-wireguard 
+luci-app-wolplus 
+luci-app-xupnpd 
+luci-app-zerotier 
+luci-base 
+luci-compat 
+luci-i18n-accesscontrol-zh-cn 
+luci-i18n-adblock-zh-cn 
+luci-i18n-arpbind-zh-cn 
+luci-i18n-autoreboot-zh-cn 
+luci-i18n-base-en 
+luci-i18n-base-zh-cn 
+luci-i18n-bonding-en 
+luci-i18n-cpufreq-zh-cn 
+luci-i18n-ddns-en 
+luci-i18n-ddns-zh-cn 
+luci-i18n-ddnsto-zh-cn 
+luci-i18n-diskman-zh-cn 
+luci-i18n-filetransfer-zh-cn 
+luci-i18n-firewall-en 
+luci-i18n-firewall-zh-cn 
+luci-i18n-ipsec-server-zh-cn 
+luci-i18n-linkease-zh-cn 
+luci-i18n-msd_lite-zh-cn 
+luci-i18n-openvpn-server-zh-cn 
+luci-i18n-qbittorrent-simple-zh-cn 
+luci-i18n-quickstart-zh-cn 
+luci-i18n-ramfree-zh-cn 
+luci-i18n-samba-en 
+luci-i18n-samba-zh-cn 
+luci-i18n-ssr-plus-zh-cn 
+luci-i18n-ttyd-zh-cn 
+luci-i18n-turboacc-zh-cn 
+luci-i18n-upnp-en 
+luci-i18n-upnp-zh-cn 
+luci-i18n-usb-printer-zh-cn 
+luci-i18n-vlmcsd-zh-cn 
+luci-i18n-vsftpd-zh-cn 
+luci-i18n-wireguard-zh-cn 
+luci-i18n-wolplus-zh-cn 
+luci-i18n-xupnpd-zh-cn 
+luci-i18n-zerotier-zh-cn 
+luci-lib-docker 
+luci-lib-fs 
+luci-lib-ip 
+luci-lib-ipkg 
+luci-lib-jsonc 
+luci-lib-nixio 
+luci-lib-taskd 
+luci-lib-xterm 
+luci-mod-admin-full 
+luci-proto-bonding 
+luci-proto-ipv6 
+luci-proto-ppp 
+luci-proto-wireguard 
+luci-theme-argon 
+luci-theme-bootstrap 
+map 
+map-t 
+mdadm 
+microsocks 
+miniupnpd 
+mkf2fs 
+mosdns 
+mount-utils 
+msd_lite 
+mtd 
+nand-utils 
+netifd 
+nfs-utils 
+nftables 
+ntfs3-mount 
+odhcp6c 
+odhcpd-ipv6only 
+openssl-util 
+openvpn-easy-rsa 
+openvpn-openssl 
+opkg 
+p910nd 
+parted 
+pdnsd-alt 
+ppp 
+ppp-mod-passwordfd 
+ppp-mod-pppoa 
+ppp-mod-pppoe 
+ppp-mod-pppol2tp 
+ppp-mod-pptp 
+ppp-mod-radius 
+pppdump 
+pppoe-discovery 
+pppstats 
+procd 
+proto-bonding 
+qbittorrent 
+qca-acfg 
+qca-cfg80211 
+qca-cfg80211tool 
+qca-diag 
+qca-hostap 
+qca-hostapd-cli 
+qca-iface-mgr-10.4 
+qca-nss-fw-cp-retail 
+qca-nss-fw-eip-cp 
+qca-qrtr 
+qca-son-cli 
+qca-son-mem-debug 
+qca-spectral 
+qca-ssdk-shell 
+qca-wifi-cyp-fw-hw1-11.0-asic 
+qca-wifi-scripts 
+qca-wifison-ext-lib 
+qca-wpa-cli 
+qca-wpa-supplicant 
+qcmbr-10.4-netlink 
+qt5-core 
+qt5-network 
+qt5-sql 
+qt5-xml 
+quickstart 
+rblibtorrent 
+relayd 
+resolveip 
+rpcd 
+rpcd-mod-rrdns 
+rstp 
+ruby 
+ruby-bigdecimal 
+ruby-date 
+ruby-digest 
+ruby-enc 
+ruby-forwardable 
+ruby-pstore 
+ruby-psych 
+ruby-stringio 
+ruby-strscan 
+ruby-yaml 
+samba36-server 
+script-utils 
+shadow 
+shadow-chage 
+shadow-chfn 
+shadow-chpasswd 
+shadow-chsh 
+shadow-common 
+shadow-expiry 
+shadow-faillog 
+shadow-gpasswd 
+shadow-groupadd 
+shadow-groupdel 
+shadow-groupmems 
+shadow-groupmod 
+shadow-groups 
+shadow-lastlog 
+shadow-login 
+shadow-newgidmap 
+shadow-newgrp 
+shadow-newuidmap 
+shadow-nologin 
+shadow-passwd 
+shadow-su 
+shadow-useradd 
+shadow-userdel 
+shadow-usermod 
+shadow-utils 
+shadow-vipw 
+shadowsocks-rust-sslocal 
+shadowsocksr-libev-ssr-check 
+shadowsocksr-libev-ssr-local 
+shadowsocksr-libev-ssr-redir 
+shadowsocksr-libev-ssr-server 
+shellsync 
+simple-obfs-client 
+smartd 
+smartmontools 
+squashfs4 
+strongswan 
+strongswan-charon 
+strongswan-ipsec 
+strongswan-minimal 
+strongswan-mod-aes 
+strongswan-mod-gmp 
+strongswan-mod-hmac 
+strongswan-mod-kernel-libipsec 
+strongswan-mod-kernel-netlink 
+strongswan-mod-nonce 
+strongswan-mod-openssl 
+strongswan-mod-pubkey 
+strongswan-mod-random 
+strongswan-mod-sha1 
+strongswan-mod-socket-default 
+strongswan-mod-stroke 
+strongswan-mod-updown 
+strongswan-mod-x509 
+strongswan-mod-xauth-generic 
+strongswan-mod-xcbc 
+swap-utils 
+swconfig 
+sysfsutils 
+tar 
+taskd 
+tcping 
+terminfo 
+tini 
+ttyd 
+ubi-utils 
+uboot-envtools 
+ubox 
+ubus 
+ubusd 
+uci 
+uclibcxx 
+uclient-fetch 
+uhttpd 
+uhttpd-mod-ubus 
+unzip 
+usb-modeswitch 
+usbmuxd 
+usbreset 
+usbutils 
+usign 
+uuidd 
+uuidgen 
+vlmcsd 
+vsftpd-alt 
+vti 
+vtiv4 
+vtiv6 
+vxlan 
+wan-discovery 
+wget-ssl 
+wireguard 
+wireguard-tools 
+wireless-regdb 
+wireless-tools 
+wsdd2 
+xl2tpd 
+xray-core 
+xupnpd 
+xz 
+xz-utils 
+zerotier 
+zlib 
