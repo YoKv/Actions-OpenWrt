@@ -63,7 +63,7 @@ http:
   pprof:
     port: 6060
     enabled: false
-  address: 0.0.0.0:3000
+  address: 192.168.11.1:3000
   session_ttl: 2h
 users: []
 auth_attempts: 5

@@ -78,24 +78,3 @@ opkg install shadow-useradd && useradd user && smbpasswd -a user
 
 
 ````
-
-
-## todo
-
-```shell
-使用自定义的 DNS 服务器
-
-usb 
-
-disk
-
-
-daemon.warn odhcpd[1833]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
-
-
-Out of memory: Killed process 9377 (AdGuardHome) total-vm:1263516kB, anon-rss:25204kB, file-rss:2360kB, shmem-rss:0kB, UID:0 pgtables:160kB oom_score_adj:0
-
-
-
-```
-
