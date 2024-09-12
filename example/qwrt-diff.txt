@@ -29,10 +29,6 @@ coreutils-nohup
 coreutils-stat
 coreutils-stty
 curl
-ddns-scripts
-ddns-scripts_aliyun
-ddns-scripts_dnspod
-ddnsto
 dns2socks
 dns2tcp
 ethtool
