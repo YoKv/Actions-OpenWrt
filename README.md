@@ -46,7 +46,7 @@ A template for building OpenWrt with GitHub Actions
 ## samba
 
 ```shell
-
+useradd user
 smbpasswd -a user
 
 ```
