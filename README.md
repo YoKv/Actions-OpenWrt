@@ -54,7 +54,7 @@ smbpasswd -a user
 
 ```shell
 usb
-
+# CONFIG_PACKAGE_kmod-phy-qcom-ipq806x-usb=y
 # CONFIG_PACKAGE_kmod-usb-phy-ipq807x=y fixme kmod-phy-qcom-ipq806x-usb kmod-phy-qcom-ipq806x-usb kmod-usb3 kmod-usb-dwc3-qcom   https://openwrt.org/packages/pkgdata/kmod-phy-qcom-ipq806x-usb
 
 [    0.093927] qcom-qmp-usb-phy 78000.ssphy: supply vdda-phy not found, using dummy regulator
