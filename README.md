@@ -66,7 +66,7 @@ usb
 
 
 https://github.com/coolsnowwolf/lede/blob/cceaa09ba2e21463246f82c3d13e00fc97af500e/target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts
-
+https://www.right.com.cn/forum/thread-8394992-1-1.html
 
 adguardhome 下载
 
