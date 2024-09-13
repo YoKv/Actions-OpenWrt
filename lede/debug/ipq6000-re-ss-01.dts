@@ -15,9 +15,9 @@
 
 	aliases {
 		serial0 = &blsp1_uart3;
-		led-boot = &led_status_green;
+		led-boot = &led_status_blue;
 		led-failsafe = &led_status_red;
-		led-running = &led_status_blue;
+		led-running = &led_status_green;
 		led-upgrade = &led_status_red;
 
 		ethernet1 = "/soc/dp2";
@@ -103,6 +103,10 @@
 	status = "okay";
 };
 
+&qusb_phy_1 {
+	status = "okay";
+};
+
 &rpm {
 	status = "disabled";
 };
@@ -120,6 +124,10 @@
 };
 
 &usb3 {
+	status = "okay";
+};
+
+&usb2 {
 	status = "okay";
 };
 
