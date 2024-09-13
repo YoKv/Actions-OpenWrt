@@ -55,7 +55,7 @@ sed -i 's/wireless.radio${devidx}.channel=${channel}/wireless.radio${devidx}.cha
 
 
 rm -rf target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts
-cat>package/lean/luci-app-adguardhome/root/usr/share/AdGuardHome/AdGuardHome_template.yaml<<EOF
+cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<<EOF
 // SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 
 /dts-v1/;
