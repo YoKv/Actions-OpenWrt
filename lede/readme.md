@@ -18,11 +18,6 @@ usb
 [    0.096134] qcom-qusb2-phy 79000.qusb: Registered Qcom-QUSB2 phy
 
 
-https://github.com/coolsnowwolf/lede/blob/cceaa09ba2e21463246f82c3d13e00fc97af500e/target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts
-
-
-
-adguardhome 下载
 
 
 ```
