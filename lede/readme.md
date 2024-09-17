@@ -1,7 +1,6 @@
 ## samba
 
 ```shell
-useradd user
-smbpasswd -a user
+useradd user && smbpasswd -a user
 
 ```
