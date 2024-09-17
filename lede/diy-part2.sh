@@ -385,11 +385,19 @@ statistics:
   interval: 1h
   enabled: true
 filters:
-  - enabled: true
+  - enabled: false
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
     name: 'CHN: anti-AD'
     id: 1681636897
-whitelist_filters: []
+  - enabled: true
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
+    name: BlueSkyXN
+    id: 1726454504
+whitelist_filters:
+  - enabled: true
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
+    name: BlueSkyXN
+    id: 1726454505
 user_rules:
   - ""
 dhcp:
