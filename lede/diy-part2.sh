@@ -158,11 +158,11 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 };
 
 &qusb_phy_0 {
-	status = "disabled";
+	status = "okay";
 };
 
 &qusb_phy_1 {
-	status = "okay";
+	status = "disabled";
 };
 
 &rpm {
