@@ -68,7 +68,7 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 #include <dt-bindings/input/input.h>
 
 / {
-	model = "JDCloud RE-SS-01";
+	model = "JDCloud RE-SS-01 (AX1800 Pro)";
 	compatible = "jdcloud,re-ss-01", "qcom,ipq6018";
 
 	aliases {
@@ -279,7 +279,7 @@ EOF
 rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
-curl -LJO https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.52/AdGuardHome_linux_arm64.tar.gz
+curl -LJO https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.55/AdGuardHome_linux_arm64.tar.gz
 mkdir -p package/lean/luci-app-adguardhome/root/usr/bin/
 tar -xzf AdGuardHome_linux_arm64.tar.gz -C package/lean/luci-app-adguardhome/root/usr/bin/
 
