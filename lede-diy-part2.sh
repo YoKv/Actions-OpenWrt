@@ -459,3 +459,4 @@ os:
 schema_version: 29
 EOF
 
+ls -lash package/lean
