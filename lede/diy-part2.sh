@@ -310,6 +310,8 @@ dns:
   refuse_any: true
   upstream_dns:
     - https://dns.alidns.com/dns-query
+    - https://1.1.1.1/dns-query
+    - https://doh.pub/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
     - tls://223.5.5.5
@@ -371,7 +373,7 @@ querylog:
   ignored: []
   interval: 2h
   size_memory: 1000
-  enabled: false
+  enabled: true
   file_enabled: true
 statistics:
   dir_path: ""
@@ -379,21 +381,30 @@ statistics:
   interval: 1h
   enabled: true
 filters:
-  - enabled: false
+  - enabled: true
+    url: https://adaway.org/hosts.txt
+    name: AdAway Default Blocklist
+    id: 2
+  - enabled: true
+    url: https://www.i-dont-care-about-cookies.eu/abp/
+    name: cookies
+    id: 1636299946
+  - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
     name: 'CHN: anti-AD'
     id: 1681636897
   - enabled: true
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
-    name: BlueSkyXN
-    id: 1726454504
+    name: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
+    id: 1726361188
 whitelist_filters:
   - enabled: true
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
-    name: BlueSkyXN
-    id: 1726454505
+    name: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
+    id: 1726361189
 user_rules:
-  - ""
+  - '@@||clickhouse.com^'
+  - '@@||click.aliyun.com^'
 dhcp:
   enabled: false
   interface_name: ""
@@ -462,6 +473,6 @@ os:
   group: ""
   user: ""
   rlimit_nofile: 0
-schema_version: 28
+schema_version: 29
 EOF
 
