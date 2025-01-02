@@ -28,7 +28,7 @@ cat>package/base-files/files/etc/banner<<EOF
 EOF
 
 # Modify hostname
-sed -i 's/OpenWrt/Morgan/g' package/base-files/files/bin/config_generate
+sed -i 's/LEDE/Morgan/g' package/base-files/files/bin/config_generate
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
@@ -48,7 +48,7 @@ sed -i '/set wireless.default_radio${devidx}.encryption=none/a\\t\t\tset wireles
 sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.txpower=20' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i '/set wireless.radio${devidx}.disabled=0/a\\t\t\tset wireless.radio${devidx}.mu_beamformer=1' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-sed -i 's/OpenWrt/wifi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/LEDE/wifi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/country=US/country=CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/encryption=none/encryption=psk-mixed/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/wireless.radio${devidx}.channel=${channel}/wireless.radio${devidx}.channel=auto/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
@@ -68,7 +68,7 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 #include <dt-bindings/input/input.h>
 
 / {
-	model = "JDCloud RE-SS-01 (AX1800 Pro)";
+	model = "JDCloud AX1800 Pro";
 	compatible = "jdcloud,re-ss-01", "qcom,ipq6018";
 
 	aliases {
@@ -310,8 +310,6 @@ dns:
   refuse_any: true
   upstream_dns:
     - https://dns.alidns.com/dns-query
-    - https://1.1.1.1/dns-query
-    - https://doh.pub/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
     - 223.5.5.5
