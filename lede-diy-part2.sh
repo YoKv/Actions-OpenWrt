@@ -10,8 +10,8 @@
 # See /LICENSE for more information.
 #
 
-rm -rf feeds/luci/themes/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 rm -rf package/base-files/files/etc/banner
@@ -34,6 +34,9 @@ sed -i 's/LEDE/Morgan/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
 sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/files/bin/config_generate
+
+cat package/base-files/files/bin/config_generate
+
 # dhcp leasetime
 sed -i 's/12h/2h/g'  package/network/services/odhcpd/files/odhcpd.defaults
 sed -i 's/12h/2h/g'  package/network/services/dnsmasq/files/dhcp.conf
