@@ -314,7 +314,7 @@ dns:
     - https://doh.pub/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
-    - tls://223.5.5.5
+    - 223.5.5.5
   fallback_dns: []
   upstream_mode: parallel
   fastest_timeout: 1s
