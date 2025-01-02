@@ -382,29 +382,11 @@ statistics:
   enabled: true
 filters:
   - enabled: true
-    url: https://adaway.org/hosts.txt
-    name: AdAway Default Blocklist
-    id: 2
-  - enabled: true
-    url: https://www.i-dont-care-about-cookies.eu/abp/
-    name: cookies
-    id: 1636299946
-  - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
-    name: 'CHN: anti-AD'
-    id: 1681636897
-  - enabled: true
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
-    name: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
-    id: 1726361188
-whitelist_filters:
-  - enabled: true
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
-    name: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
-    id: 1726361189
-user_rules:
-  - '@@||clickhouse.com^'
-  - '@@||click.aliyun.com^'
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdns.txt
+    name: https://github.com/217heidai/adblockfilters
+    id: 1236547890
+whitelist_filters: []
+user_rules: []
 dhcp:
   enabled: false
   interface_name: ""
