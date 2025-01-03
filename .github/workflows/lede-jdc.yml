@@ -115,8 +115,8 @@ jobs:
           cd openwrt/bin/targets/*/*
           ls -lash
           rm -rf packages
-          rm -rf *.squashfs-factory.bin
-          rm -rf *.squashfs-recovery.bin
+          rm -rf *.factory.bin
+          rm -rf *.recovery.bin
           rm -rf *.itb
           echo "FIRMWARE=$PWD" >> $GITHUB_ENV
           echo "status=success" >> $GITHUB_OUTPUT
