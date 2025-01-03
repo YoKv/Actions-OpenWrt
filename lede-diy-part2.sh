@@ -35,8 +35,6 @@ sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/luci2/bin/config_genera
 
 sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/luci2/bin/config_generate
 
-cat package/base-files/luci2/bin/config_generate
-
 # dhcp leasetime
 sed -i 's/12h/2h/g'  package/network/services/odhcpd/files/odhcpd.defaults
 sed -i 's/12h/2h/g'  package/network/services/dnsmasq/files/dhcp.conf
