@@ -10,6 +10,7 @@
 # See /LICENSE for more information.
 #
 
+# fixme
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
@@ -27,7 +28,7 @@ cat>package/base-files/files/etc/banner<<EOF
        ░       ░ ░     ░           ░       ░  ░         ░
 EOF
 
-# Modify hostname
+# Modify hostname fixme
 sed -i 's/LEDE/Morgan/g' package/base-files/files/bin/config_generate
 
 # Modify default IP
@@ -279,6 +280,7 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 EOF
 
 
+# fixme
 rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
