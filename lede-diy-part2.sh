@@ -276,16 +276,18 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 };
 EOF
 
+
+rm -rf package/lean/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+
 ls -lash package/lean/luci-app-adguardhome
 ls -lash package/lean/luci-app-adguardhome/root
 ls -lash package/lean/luci-app-adguardhome/root/etc
 ls -lash package/lean/luci-app-adguardhome/root/usr
-rm -rf package/lean/luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 curl -LJO https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.55/AdGuardHome_linux_arm64.tar.gz
-mkdir -p package/lean/luci-app-adguardhome/root/usr/bin/AdGuardHome/
-tar -xzf AdGuardHome_linux_arm64.tar.gz -C package/lean/luci-app-adguardhome/root/usr/bin/AdGuardHome/
+mkdir -p package/lean/luci-app-adguardhome/root/usr/bin/
+tar -xzf AdGuardHome_linux_arm64.tar.gz -C package/lean/luci-app-adguardhome/root/usr/bin/
 
 ls -lash package/lean/luci-app-adguardhome/root/usr/bin/AdGuardHome/
 
