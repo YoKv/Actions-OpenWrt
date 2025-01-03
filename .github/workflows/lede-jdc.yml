@@ -113,11 +113,11 @@ jobs:
         if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
         run: |
           cd openwrt/bin/targets/*/*
+          ls -lash
           rm -rf packages
           rm -rf *.squashfs-factory.bin
           rm -rf *.squashfs-recovery.bin
           rm -rf *.itb
-          ls -lash
           echo "FIRMWARE=$PWD" >> $GITHUB_ENV
           echo "status=success" >> $GITHUB_OUTPUT
 

@@ -10,10 +10,7 @@
 # See /LICENSE for more information.
 #
 
-# fixme
-rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+ls -lash
 
 rm -rf package/base-files/files/etc/banner
 cat>package/base-files/files/etc/banner<<EOF
@@ -385,7 +382,7 @@ statistics:
   enabled: true
 filters:
   - enabled: true
-    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdns.txt
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdnslite.txt
     name: https://github.com/217heidai/adblockfilters
     id: 1236547890
 whitelist_filters: []
