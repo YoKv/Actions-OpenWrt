@@ -25,15 +25,17 @@ cat>package/base-files/files/etc/banner<<EOF
        ░       ░ ░     ░           ░       ░  ░         ░
 EOF
 
-# Modify hostname fixme
-sed -i 's/LEDE/Morgan/g' package/base-files/files/bin/config_generate
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-light/Makefile
+
+# Modify hostname
+sed -i 's/LEDE/Morgan/g' package/base-files/luci2/bin/config_generate
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/luci2/bin/config_generate
 
-sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/files/bin/config_generate
+sed -i "s/system.ntp.enable_server='1'/system.ntp.enable_server='0'/g" package/base-files/luci2/bin/config_generate
 
-cat package/base-files/files/bin/config_generate
+cat package/base-files/luci2/bin/config_generate
 
 # dhcp leasetime
 sed -i 's/12h/2h/g'  package/network/services/odhcpd/files/odhcpd.defaults
@@ -276,8 +278,6 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 };
 EOF
 
-
-# fixme
 rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
