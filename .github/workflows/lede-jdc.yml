@@ -118,6 +118,7 @@ jobs:
           rm -rf *.factory.bin
           rm -rf *.recovery.bin
           rm -rf *.itb
+          ls -lash
           echo "FIRMWARE=$PWD" >> $GITHUB_ENV
           echo "status=success" >> $GITHUB_OUTPUT
 
