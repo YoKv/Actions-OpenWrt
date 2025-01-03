@@ -276,16 +276,21 @@ cat>target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6000-re-ss-01.dts<
 };
 EOF
 
+ls -lash package/lean/luci-app-adguardhome
+ls -lash package/lean/luci-app-adguardhome/root
+ls -lash package/lean/luci-app-adguardhome/root/etc
+ls -lash package/lean/luci-app-adguardhome/root/usr
 rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 curl -LJO https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.55/AdGuardHome_linux_arm64.tar.gz
-mkdir -p package/lean/luci-app-adguardhome/root/usr/bin/
-tar -xzf AdGuardHome_linux_arm64.tar.gz -C package/lean/luci-app-adguardhome/root/usr/bin/
+mkdir -p package/lean/luci-app-adguardhome/root/usr/bin/AdGuardHome/
+tar -xzf AdGuardHome_linux_arm64.tar.gz -C package/lean/luci-app-adguardhome/root/usr/bin/AdGuardHome/
 
-sed -i "s/'\/etc\/AdGuardHome.yaml'/'\/usr\/share\/AdGuardHome\/AdGuardHome_template.yaml'/g" package/lean/luci-app-adguardhome/root/etc/config/AdGuardHome
-rm -rf package/lean/luci-app-adguardhome/root/usr/share/AdGuardHome/AdGuardHome_template.yaml
-cat>package/lean/luci-app-adguardhome/root/usr/share/AdGuardHome/AdGuardHome_template.yaml<<EOF
+ls -lash package/lean/luci-app-adguardhome/root/usr/bin/AdGuardHome/
+
+rm -rf package/lean/luci-app-adguardhome/root/etc/AdGuardHome.yaml
+cat>package/lean/luci-app-adguardhome/root/etc/AdGuardHome.yaml<<EOF
 http:
   pprof:
     port: 6060
