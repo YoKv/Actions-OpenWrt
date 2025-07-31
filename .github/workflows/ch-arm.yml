@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_BRANCH: jobs:v25.3.6.56-lts
+  REPO_BRANCH: v25.3.6.56-lts
 
 jobs:
   build:
@@ -23,9 +23,9 @@ jobs:
           echo $PWD
 
       - name: Clone source code
-        working-directory: /workdir
         run: |
           df -hT $PWD
+          echo $PWD
           git clone https://github.com/ClickHouse/ClickHouse.git -b $REPO_BRANCH ch
 
       - name: build
