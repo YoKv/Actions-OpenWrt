@@ -39,7 +39,7 @@ jobs:
           cd ch
           mkdir -p build
           echo $PWD
-          cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=cmake/linux/toolchain-aarch64.cmake -DNO_ARMV81_OR_HIGHER=1
+          cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=cmake/linux/toolchain-aarch64.cmake -DNO_ARMV81_OR_HIGHER=1 -DENABLE_RUST=OFF
           ninja
 
       - name: Upload files
