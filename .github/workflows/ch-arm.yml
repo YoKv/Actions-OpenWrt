@@ -40,3 +40,9 @@ jobs:
           echo $PWD
           cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/linux/toolchain-aarch64.cmake -DNO_ARMV81_OR_HIGHER=1
           ninja
+
+      - name: Upload files
+        uses: actions/upload-artifact@main
+        with:
+          name: ClickHouse-$REPO_BRANCH
+          path:  $GITHUB_WORKSPACE/ch/build
