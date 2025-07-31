@@ -21,8 +21,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lede-jdc.config
-  DIY_P1_SH: lede-diy-part1.sh
-  DIY_P2_SH: lede-diy-part2.sh
+  DIY_P1_SH: lede-jdc-diy-part1.sh
+  DIY_P2_SH: lede-jdc-diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
@@ -115,8 +115,8 @@ jobs:
           cd openwrt/bin/targets/*/*
           ls -lash
           rm -rf packages
-          rm -rf *.factory.bin
-          rm -rf *.recovery.bin
+          rm -rf *factory.bin
+          rm -rf *recovery.bin
           rm -rf *.itb
           ls -lash
           echo "FIRMWARE=$PWD" >> $GITHUB_ENV
