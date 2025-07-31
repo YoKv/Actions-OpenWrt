@@ -1,5 +1,9 @@
 name: ch arm
 
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
 env:
   REPO_BRANCH: jobs:v25.3.6.56-lts
 
