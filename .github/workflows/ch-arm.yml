@@ -15,12 +15,9 @@ jobs:
       - name: Initialization environment
         run: |
           sudo -E apt-get -qq update
-          sudo -E  apt-get install git cmake ccache python3 ninja-build nasm yasm gawk lsb-release wget software-properties-common gnupg
+          sudo -E apt-get install git cmake ccache python3 ninja-build nasm yasm gawk lsb-release wget software-properties-common gnupg
           sudo -E apt-get -qq clean
           sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
-          sudo mkdir -p /workdir
-          sudo chown $USER:$GROUPS /workdir
-          echo $PWD
 
       - name: Clone source code
         run: |
@@ -44,9 +41,10 @@ jobs:
           echo "Build directory contents after cmake:"
           ls -la
           ninja
+          ls -la $GITHUB_WORKSPACE/ch/build
 
       - name: Upload files
         uses: actions/upload-artifact@main
         with:
-          name: ClickHouse-$REPO_BRANCH
+          name: ClickHouse-aarch64v80compat-$REPO_BRANCH
           path:  $GITHUB_WORKSPACE/ch/build
