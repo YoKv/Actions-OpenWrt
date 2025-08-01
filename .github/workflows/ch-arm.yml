@@ -25,7 +25,7 @@ jobs:
           echo $PWD
           git clone https://github.com/ClickHouse/ClickHouse.git -b $REPO_BRANCH ch
           cd ch
-          git submodule update --init --jobs 12
+          ./contrib/update-submodules.sh
 
       - name: build
         id: build
