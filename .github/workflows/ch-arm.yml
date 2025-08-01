@@ -18,7 +18,11 @@ jobs:
           sudo -E apt-get install git cmake ccache python3 ninja-build nasm yasm gawk lsb-release wget software-properties-common gnupg
           sudo -E apt-get -qq clean
           sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
-
+      - name: Install nfpm
+        run: |
+          curl -sSfL https://github.com/goreleaser/nfpm/releases/download/v2.40.1/nfpm_2.40.1_`uname -s`_`uname -m`.tar.gz | tar -xz nfpm
+          sudo mv nfpm /usr/local/bin/
+          nfpm --version
       - name: Clone source code
         run: |
           df -hT $PWD
@@ -43,8 +47,44 @@ jobs:
           ninja
           ls -la $GITHUB_WORKSPACE/ch/build
 
+      - name: Create RPM package
+        run: |
+          cd ch
+          mkdir -p pkg/usr/bin pkg/etc/clickhouse-server
+          cp build/programs/clickhouse pkg/usr/bin/
+          
+          # Create nfpm config
+          cat > nfpm.yaml << 'EOL'
+          name: clickhouse
+          arch: aarch64
+          platform: linux
+          version: ${REPO_BRANCH#v}
+          release: 1
+          section: database
+          priority: optional
+          maintainer: "Your Name <your.email@example.com>"
+          vendor: "Your Organization"
+          description: |
+            ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).
+          homepage: "https://clickhouse.com"
+          license: "Apache-2.0"
+          contents:
+            - src: ./pkg/usr
+              dst: /usr
+            - src: ./pkg/etc
+              dst: /etc
+          # Add any additional files or configurations here
+          EOL
+          
+          # Build RPM package
+          nfpm package -f nfpm.yaml -p rpm -t ./ --packager rpm
+          
+          # List the generated package
+          ls -la *.rpm
+
       - name: Upload files
         uses: actions/upload-artifact@main
         with:
           name: ClickHouse-aarch64v80compat-$REPO_BRANCH
-          path:  ch/build
+          path: |
+            ch/*.rpm
