@@ -37,7 +37,7 @@ jobs:
           ls -la
           mkdir -p build
           cd build
-          cmake .. -DCMAKE_TOOLCHAIN_FILE=../cmake/linux/toolchain-aarch64.cmake -DNO_ARMV81_OR_HIGHER=1 -DENABLE_RUST=OFF
+          cmake .. -DCMAKE_TOOLCHAIN_FILE=../cmake/linux/toolchain-aarch64.cmake -DNO_ARMV81_OR_HIGHER=1 -DENABLE_RUST=OFF -DENABLE_LIBRARIES=OFF
           echo "Build directory contents after cmake:"
           ls -la
           ninja
