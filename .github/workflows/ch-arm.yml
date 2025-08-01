@@ -85,6 +85,6 @@ jobs:
       - name: Upload files
         uses: actions/upload-artifact@main
         with:
-          name: ClickHouse-aarch64v80compat-$REPO_BRANCH
+          name: ClickHouse-aarch64v80compat
           path: |
             ch/*.rpm
