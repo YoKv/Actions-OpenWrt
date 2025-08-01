@@ -41,10 +41,10 @@ jobs:
           echo "Build directory contents after cmake:"
           ls -la
           ninja
-          ls -la $GITHUB_WORKSPACE/ch/build
+          ls -la ch/build
 
       - name: Upload files
         uses: actions/upload-artifact@main
         with:
           name: ClickHouse-aarch64v80compat-$REPO_BRANCH
-          path:  $GITHUB_WORKSPACE/ch/build
+          path: ch/build
