@@ -14,14 +14,12 @@ jobs:
     steps:
       - name: Initialization environment
         run: |
+          echo 'deb [trusted=yes] https://repo.goreleaser.com/apt/ /' | sudo tee /etc/apt/sources.list.d/goreleaser.list
           sudo -E apt-get -qq update
-          sudo -E apt-get install git cmake ccache python3 ninja-build nasm yasm gawk lsb-release wget software-properties-common gnupg
+          sudo -E apt-get install -y git cmake ccache python3 ninja-build nasm yasm gawk lsb-release wget software-properties-common gnupg
+          sudo -E apt-get install -y nfpm
           sudo -E apt-get -qq clean
           sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
-      - name: Install nfpm
-        run: |
-          curl -sSfL https://github.com/goreleaser/nfpm/releases/download/v2.40.1/nfpm_2.40.1_`uname -s`_`uname -m`.tar.gz | tar -xz nfpm
-          sudo mv nfpm /usr/local/bin/
           nfpm --version
       - name: Clone source code
         run: |
