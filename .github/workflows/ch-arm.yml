@@ -1,0 +1,88 @@
+name: ch arm
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+env:
+  REPO_BRANCH: v25.3.6.56-lts
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Initialization environment
+        run: |
+          echo 'deb [trusted=yes] https://repo.goreleaser.com/apt/ /' | sudo tee /etc/apt/sources.list.d/goreleaser.list
+          sudo -E apt-get -qq update
+          sudo -E apt-get install -y git cmake ccache python3 ninja-build nasm yasm gawk lsb-release wget software-properties-common gnupg
+          sudo -E apt-get install -y nfpm
+          sudo -E apt-get -qq clean
+          sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
+          nfpm --version
+      - name: Clone source code
+        run: |
+          df -hT $PWD
+          echo $PWD
+          git clone https://github.com/ClickHouse/ClickHouse.git -b $REPO_BRANCH ch
+          cd ch
+          ./contrib/update-submodules.sh
+
+      - name: build
+        id: build
+        env:
+          CC: clang-19
+          CXX: clang++-19
+        run: |
+          cd ch
+          ls -la
+          mkdir -p build
+          cd build
+          cmake .. -DCMAKE_TOOLCHAIN_FILE=../cmake/linux/toolchain-aarch64.cmake -DNO_ARMV81_OR_HIGHER=1 -DENABLE_RUST=OFF -DENABLE_LIBRARIES=OFF
+          echo "Build directory contents after cmake:"
+          ls -la
+          ninja
+          ls -la $GITHUB_WORKSPACE/ch/build
+
+      - name: Create RPM package
+        run: |
+          cd ch
+          mkdir -p pkg/usr/bin pkg/etc/clickhouse-server
+          cp build/programs/clickhouse pkg/usr/bin/
+          
+          # Create nfpm config
+          cat > nfpm.yaml << 'EOL'
+          name: clickhouse
+          arch: aarch64
+          platform: linux
+          version: ${REPO_BRANCH#v}
+          release: 1
+          section: database
+          priority: optional
+          maintainer: "Your Name <your.email@example.com>"
+          vendor: "Your Organization"
+          description: |
+            ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).
+          homepage: "https://clickhouse.com"
+          license: "Apache-2.0"
+          contents:
+            - src: ./pkg/usr
+              dst: /usr
+            - src: ./pkg/etc
+              dst: /etc
+          # Add any additional files or configurations here
+          EOL
+          
+          # Build RPM package
+          nfpm package -f nfpm.yaml -p rpm -t ./ --packager rpm
+          
+          # List the generated package
+          ls -la *.rpm
+
+      - name: Upload files
+        uses: actions/upload-artifact@main
+        with:
+          name: ClickHouse-aarch64v80compat
+          path: |
+            ch/*.rpm
