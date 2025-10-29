@@ -128,3 +128,24 @@ jobs:
         with:
           name: OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
           path: ${{ env.FIRMWARE }}
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: lede-jdc-${{ env.FILE_DATE }}
+          name: OpenWrt Firmware for JDC ${{ env.FILE_DATE }}
+          body: |
+            Auto-built OpenWrt firmware for JDC.
+            - Build Date: ${{ env.FILE_DATE }}
+            - Device: ${{ env.DEVICE_NAME }}
+          draft: false
+          prerelease: false
+          files: |
+            ${{ env.FIRMWARE }}/*.bin
+            ${{ env.FIRMWARE }}/*.img
+            ${{ env.FIRMWARE }}/*.gz
+            ${{ env.FIRMWARE }}/*.zip
